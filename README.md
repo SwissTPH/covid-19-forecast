@@ -51,6 +51,4 @@ RUN install2.r shinyjs ggplot2 DT png httr
 ## Official docs
 
 For more details and configuration tweaks refer to the official docs of these containers:
-
-  * [https://github.com/jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy)
-  * [https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion)
+  * [https://hub.docker.com/r/rocker/r-ver](https://hub.docker.com/r/rocker/r-ver)
