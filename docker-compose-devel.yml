@@ -1,0 +1,61 @@
+version: '3'
+services:
+
+    nginx-proxy:
+      image: jwilder/nginx-proxy:alpine
+      container_name: nginx-proxy-devel
+      ports:
+        - "80:80"
+        - "443:443"
+      volumes:
+        - conf:/etc/nginx/conf.d
+        - vhost:/etc/nginx/vhost.d
+        - html:/usr/share/nginx/html
+        - /var/run/docker.sock:/tmp/docker.sock:ro
+      restart: unless-stopped
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '10'
+
+    shiny:
+#--------------------------------------
+# The name of your app as defined
+# by the folder name inside shiny-apps
+      image: YOUR_APP_NAME:VERSION
+#--------------------------------------
+      build:
+        context: .
+        dockerfile: Dockerfile
+      expose:
+        - 3838
+      user: root
+      environment:
+        # this env vars are used to define what vhost
+        # to configure in the nginx_proxy
+        # Using this var you can access the webapp in
+        # http://localhost/ in your laptop
+        - VIRTUAL_HOST=localhost
+        # Uncomment the lines below to disable application logs STDOUT output
+        # - APPLICATION_LOGS_TO_STDOUT=false
+      volumes:
+        - shiny_logs:/var/log/shiny-server
+        # Comment the line below out for initial testing. With it commented out,
+        # going to localhost:80 in one's web browser will show a "Welcome to
+        # Shiny Server!" diagnostics page.
+        - ./shiny-apps:/srv/shiny-server
+      restart: unless-stopped
+
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '10'
+
+volumes:
+  conf:
+  vhost:
+  html:
+  shiny_logs:
+
