@@ -47,7 +47,7 @@ services:
 # The name of your app as defined
 # by the folder name inside shiny-apps
 # 
-      image: YOUR_APP_NAME:VERSION
+      image: 001-hello:0.1
 #--------------------------------------
       build:
         context: .
@@ -58,10 +58,10 @@ services:
       environment:
 #
 # ------ CHANGE the next two lines -----------------------------------------
-        - VIRTUAL_HOST=<your public url> # sosci-devel.scicore.unibas.ch
-        - LETSENCRYPT_HOST=<your public url> # sosci-devel.scicore.unibas.ch
+        - VIRTUAL_HOST=sosci-devel.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
+        - LETSENCRYPT_HOST=sosci-devel.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
 # -------------------------------------------------------------------------
-        - LETSENCRYPT_EMAIL=scicore-admin@unibas.ch
+        - LETSENCRYPT_EMAIL=monica.golumbeanu@unibas.ch
       volumes:
         - shiny_logs:/var/log/shiny-server
         # Comment the line below out for initial testing. With it commented out,
