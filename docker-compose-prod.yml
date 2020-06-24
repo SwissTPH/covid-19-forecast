@@ -47,7 +47,7 @@ services:
 # The name of your app as defined
 # by the folder name inside shiny-apps
 # 
-      image: 001-hello:0.1
+      image: COVID19_dahsboard:0.1
 #--------------------------------------
       build:
         context: .
