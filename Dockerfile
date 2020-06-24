@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     libcurl4-openssl-dev
 
 # install some extra R libraries required by our shiny app
-RUN install2.r shinyjs ggplot2 DT png httr
+RUN install2.r shinyjs ggplot2 DT png httr shiny zoo plotly plyr scales tidyverse tseries forecast lubridate strucchange shinyhelper
 
 # this Dockerfile extends 
 # https://github.com/rocker-org/shiny/blob/master/Dockerfile

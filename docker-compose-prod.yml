@@ -58,10 +58,10 @@ services:
       environment:
 #
 # ------ CHANGE the next two lines -----------------------------------------
-        - VIRTUAL_HOST=covid-19-dashboard.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
-        - LETSENCRYPT_HOST=covid-19-dashboard.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
+        - VIRTUAL_HOST=covid19-dashboard.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
+        - LETSENCRYPT_HOST=covid19-dashboard.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
 # -------------------------------------------------------------------------
-        - LETSENCRYPT_EMAIL=monica.golumbeanu@unibas.ch
+        - LETSENCRYPT_EMAIL=scicore-admin@unibas.ch
       volumes:
         - shiny_logs:/var/log/shiny-server
         # Comment the line below out for initial testing. With it commented out,
