@@ -58,8 +58,8 @@ services:
       environment:
 #
 # ------ CHANGE the next two lines -----------------------------------------
-        - VIRTUAL_HOST=sosci-devel.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
-        - LETSENCRYPT_HOST=sosci-devel.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
+        - VIRTUAL_HOST=covid-19-dashboard.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
+        - LETSENCRYPT_HOST=covid-19-dashboard.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
 # -------------------------------------------------------------------------
         - LETSENCRYPT_EMAIL=monica.golumbeanu@unibas.ch
       volumes:
