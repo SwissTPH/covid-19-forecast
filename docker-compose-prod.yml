@@ -47,7 +47,7 @@ services:
 # The name of your app as defined
 # by the folder name inside shiny-apps
 # 
-      image: COVID19_dahsboard:0.1
+      image: covid-19-forecast:0.1
 #--------------------------------------
       build:
         context: .
@@ -58,8 +58,8 @@ services:
       environment:
 #
 # ------ CHANGE the next two lines -----------------------------------------
-        - VIRTUAL_HOST=covid19-dashboard.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
-        - LETSENCRYPT_HOST=covid19-dashboard.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
+        - VIRTUAL_HOST=covid-19-forecast.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
+        - LETSENCRYPT_HOST=covid-19-forecast.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
 # -------------------------------------------------------------------------
         - LETSENCRYPT_EMAIL=scicore-admin@unibas.ch
       volumes:

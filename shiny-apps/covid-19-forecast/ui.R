@@ -5,11 +5,11 @@ library(shinyhelper)
 # Retrieve the date of the last file change (date of the last data point)
 current_date = file.info("www/scraped_data.txt")$mtime
 
-fluidPage(tags$head(HTML("<title>COVID-19 Dashboard</title>")),
+fluidPage(tags$head(HTML("<title>COVID-19 Forecast</title>")),
           shinyjs::useShinyjs(),
           navbarPage(title = div(img(src="coronaLogo.png", 
                                  height = 29, width = 34),
-                             "COVID-19 Dashboard"), inverse=TRUE,
+                             "COVID-19 Forecast"), inverse=TRUE,
                    tabPanel("Home", style='width: 1300px;',
                             fluidRow(align = "right",
                                      tags$img(src="logo_TPH.png", width = 97.8, height = 28.114),
