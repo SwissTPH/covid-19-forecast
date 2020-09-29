@@ -5,8 +5,6 @@
 ########################
 library(plyr)
 
-# source("scripts/define_constants.R")
-
 plot_simple_forecast = function(plot_df, data_df, plot_title, plot_y){
     colnames(data_df) = c("day_reported", "n")
     options(scipen=1000000)
@@ -93,7 +91,7 @@ render_plot_ts = function(arima_result, data_df, ts_name, smoothed,
 # Plot all the selected time series given visualisation options and overall 
 # result table
 render_plots_ts = function(arima_result_all, o_data_source, o_ts, 
-                           o_data_disp, o_model, o_conf){
+                           o_data_disp, o_model, o_conf, o_max_time){
     # Transform date entries to date format
     arima_result_all$day_reported = ymd(arima_result_all$day_reported)
     
@@ -146,73 +144,18 @@ render_plots_ts = function(arima_result_all, o_data_source, o_ts,
         # Graphics
         geom_vline(xintercept = as.Date("2020-03-17"), lty = 2) + 
         theme_bw(base_size = 11) +
-        facet_wrap(~variable, scales = "free", ncol = 2) +
+        facet_wrap(~variable, scales = "free", ncol = 1) +
         theme(panel.grid.major = element_blank(), 
               panel.grid.minor = element_blank()) +
         theme(strip.background = element_rect(colour="white", fill="white")) +
         scale_color_manual(name = "data_source", values = C_col_data_sources) +
         scale_fill_manual(name = "data_source", values = C_col_data_sources) +
         labs(x = "Time", y = "") +
+        geom_vline(xintercept = as.numeric(o_max_time), lty = 2, color = "grey") +
         theme(legend.position="bottom") +
         guides(fill = guide_legend(title=""), color = guide_legend(title="")) +
         theme(strip.text.x = element_text(size = 12, face = "bold")) +
         guides(color = FALSE, size = FALSE)
     
-    return(p)
-}
-
-# Plot the lags between measures and their effects
-render_plot_breakpoints = function(data_table, breakpoints_table, 
-                                   date_bp = as.Date("2020-04-01"),
-                                   o_data_source, o_ts, o_data_disp) {
-    
-    # Select the rows in the data table according to visualization options
-    selected_data = data_table[which(data_table$variable %in% 
-                                    C_ts_vec_names[as.double(o_ts)] &
-                                    data_table$data_source %in% 
-                                    C_data_sources[as.double(o_data_source)]),]
-    
-    # Select the rows in the data table according to visualization options
-    selected_bp = breakpoints_table[which(breakpoints_table$variable %in% 
-                                        C_ts_vec_names[as.double(o_ts)] &
-                                        breakpoints_table$data_source %in% 
-                                        C_data_sources[as.double(o_data_source)]),]
-    
-    # Select whether displayed data is smoothed or not
-    if (o_data_disp == 1){
-        selected_data$data_shown = selected_data$data_value
-    } else {
-        selected_data$data_shown = selected_data$smoothed_value
-    }
-    
-    # Update the names in the data table
-    selected_data$variable = revalue(selected_data$variable, C_ts_vec_titles)
-    selected_bp$variable = revalue(selected_bp$variable, C_ts_vec_titles)
-    
-    # Plot the data
-    p = ggplot() + 
-        theme_bw(base_size = 11) +
-        # Data
-        geom_bar(stat = "identity", position = "identity", data = selected_data, 
-                 aes(x = day_reported, y = data_shown, fill = data_source), 
-                 color = "grey", size = 0.2, alpha = 0.2) +
-        # Breakpoints
-        geom_vline(data = selected_bp, aes(xintercept = as.numeric(value), color = data_source), lty = 2) +
-        geom_rect(data = selected_bp, aes(NULL, NULL, xmin = as.Date(low, "%Y-%m-%d"), 
-                                          xmax = as.Date(high,"%Y-%m-%d"), fill = data_source),
-                                    ymin = 0, ymax=5000, alpha=0.3) +
-        # Graphics
-        # geom_point(aes(x = 20, y = 20), color = "black") +
-        annotate("point", x = as.Date("2020-03-17", "%Y-%m-%d"), y = 0, pch = 4, colour = "blue") +
-        facet_wrap(~variable, scales = "free", ncol = 2, drop = TRUE) +
-        theme(panel.grid.major = element_blank(), 
-          panel.grid.minor = element_blank()) +
-        theme(strip.background = element_rect(colour="white", fill="white")) +
-        scale_color_manual(name = "data_source", values = C_col_data_sources) +
-        scale_fill_manual(name = "data_source", values = C_col_data_sources) +
-        labs(x = "Time", y = "") +
-        theme(legend.position="bottom") +
-        theme(strip.text.x = element_text(size = 12, face = "bold"))     
-
     return(p)
 }

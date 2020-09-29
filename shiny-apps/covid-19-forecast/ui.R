@@ -3,7 +3,9 @@ library(plotly)
 library(shinyhelper)
 
 # Retrieve the date of the last file change (date of the last data point)
-current_date = file.info("www/scraped_data.txt")$mtime
+current_date = file.info("www/pulled_data.txt")$mtime 
+# Remove the 4 days where the data is incomplete
+max_date = as.Date(current_date) - 4
 
 fluidPage(tags$head(HTML("<title>COVID-19 Forecast</title>")),
           shinyjs::useShinyjs(),
@@ -34,12 +36,12 @@ fluidPage(tags$head(HTML("<title>COVID-19 Forecast</title>")),
                                                        choices = list("FOPH" = 1, 
                                                                       "corona-data.ch" = 2),
                                                        selected = c(1, 2)),
-                                    checkboxGroupInput("check_ts", label = "Displayed data outputs",
+                                    radioButtons("radio_ts", label = "Displayed data outputs",
                                                            choices = list("New cases" = 1, 
                                                                           "New hospitalizations" = 2,
                                                                           "Current hospitalizations" = 3,
                                                                           "New fatalities" = 4),
-                                                           selected = c(1,4)),
+                                                           selected = 1),
                                     radioButtons("radio_disp", label = "Data smoothing",
                                                      choices = list("Raw data" = 1, 
                                                                     "Smoothed" = 2), 
@@ -47,7 +49,9 @@ fluidPage(tags$head(HTML("<title>COVID-19 Forecast</title>")),
                                     h5(strong("Time series model:")),
                                     checkboxInput("check_model", label = "Show model", value = TRUE),
                                     checkboxInput("check_conf", label = "Show model uncertainty", value = TRUE),
-                                    dateInput("date_model_train", label = h5("Training until date:"), value = current_date),
+                                    dateInput("date_model_train", label = h5("Training until date:"), 
+                                              value = max_date,
+                                              max = max_date),
                                     hr(),
                                     downloadButton("save_ts", label = "Download data")
                                 ),
@@ -67,41 +71,14 @@ fluidPage(tags$head(HTML("<title>COVID-19 Forecast</title>")),
                                                         "and data individually released by the Swiss cantons 
                                                             aggregated by",
                                                       span(textOutput("CORONA_text", inline = TRUE), 
-                                                           style = "color:#42B3D5"), "."),
-                                                    p(paste("Last data update:", current_date)),
+                                                           style = "color:#42B3D5"), ".", paste("Last data update:", current_date)),
+                                                    p("The data beyond the dotted line is incomplete and not used in the analysis."),
                                                     plotlyOutput(outputId = "ARIMA_analysis")
-                                                ),
-                                                tabPanel('Effect delays',
-                                                      helper(tags$br(), icon = "question-circle",
-                                                                colour = "black",
-                                                                type = "markdown",
-                                                                content = "PlotTabHelp_lags"),
-                                                      p("The figures below display the results of time series analyses
-                                                      performed on data provided by the ", 
-                                                           span(textOutput("FOPH_text2", inline = TRUE), 
-                                                                style = "color:#fb6a4a"), 
-                                                           "and data individually released by the Swiss cantons 
-                                                           aggregated by",
-                                                           span(textOutput("CORONA_text2", inline = TRUE), 
-                                                                style = "color:#42B3D5"), "."),
-                                                         p(paste("Last data update:", current_date)),
-                                                      
-                                                     plotlyOutput(outputId = "lag_analysis"),
-                                                     
-                                                     p("Estimated delays in the effects of measures:"),
-                                                     p("14 - 16 days before we observe effects on confirmed cases"),
-                                                     p("23 - 25 days before we observe effects on numbers of deaths")
                                                 )
                                     )
                                 )
                             )
                    ),
-                   # tabPanel("Help", style='width: 1300px;',
-                   #          fluidRow(align = "right",
-                   #                   tags$img(src="logo_TPH.png", width = 97.8, height = 28.114),
-                   #                   tags$img(src="logo_UniBas.jpg", width = 93.8, height = 30.8,
-                   #                            style="margin-left: 25px;"))
-                   # ),
                    tabPanel("Methods", style='width: 1300px;',
                             fluidRow(align = "right",
                                      tags$img(src="logo_TPH.png", width = 97.8, height = 28.114),
