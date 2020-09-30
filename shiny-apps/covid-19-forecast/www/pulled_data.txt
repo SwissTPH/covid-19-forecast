@@ -33,7 +33,7 @@ day_reported	data_source	variable	value
 2020-03-26	FOPH online	cases	1118
 2020-03-27	FOPH online	cases	1308
 2020-03-28	FOPH online	cases	723
-2020-03-29	FOPH online	cases	433
+2020-03-29	FOPH online	cases	434
 2020-03-30	FOPH online	cases	1310
 2020-03-31	FOPH online	cases	1137
 2020-04-01	FOPH online	cases	1016
@@ -186,7 +186,7 @@ day_reported	data_source	variable	value
 2020-08-26	FOPH online	cases	362
 2020-08-27	FOPH online	cases	352
 2020-08-28	FOPH online	cases	374
-2020-08-29	FOPH online	cases	214
+2020-08-29	FOPH online	cases	215
 2020-08-30	FOPH online	cases	144
 2020-08-31	FOPH online	cases	346
 2020-09-01	FOPH online	cases	364
@@ -206,18 +206,19 @@ day_reported	data_source	variable	value
 2020-09-15	FOPH online	cases	458
 2020-09-16	FOPH online	cases	516
 2020-09-17	FOPH online	cases	498
-2020-09-18	FOPH online	cases	444
+2020-09-18	FOPH online	cases	445
 2020-09-19	FOPH online	cases	287
 2020-09-20	FOPH online	cases	201
 2020-09-21	FOPH online	cases	396
 2020-09-22	FOPH online	cases	425
 2020-09-23	FOPH online	cases	383
 2020-09-24	FOPH online	cases	308
-2020-09-25	FOPH online	cases	356
+2020-09-25	FOPH online	cases	358
 2020-09-26	FOPH online	cases	218
-2020-09-27	FOPH online	cases	116
-2020-09-28	FOPH online	cases	143
-2020-09-29	FOPH online	cases	0
+2020-09-27	FOPH online	cases	120
+2020-09-28	FOPH online	cases	346
+2020-09-29	FOPH online	cases	199
+2020-09-30	FOPH online	cases	0
 2020-02-24	FOPH online	hospitalizations	5
 2020-02-25	FOPH online	hospitalizations	4
 2020-02-26	FOPH online	hospitalizations	9
@@ -325,7 +326,7 @@ day_reported	data_source	variable	value
 2020-06-07	FOPH online	hospitalizations	0
 2020-06-08	FOPH online	hospitalizations	1
 2020-06-09	FOPH online	hospitalizations	0
-2020-06-10	FOPH online	hospitalizations	0
+2020-06-10	FOPH online	hospitalizations	1
 2020-06-11	FOPH online	hospitalizations	1
 2020-06-12	FOPH online	hospitalizations	1
 2020-06-13	FOPH online	hospitalizations	0
@@ -429,14 +430,15 @@ day_reported	data_source	variable	value
 2020-09-19	FOPH online	hospitalizations	8
 2020-09-20	FOPH online	hospitalizations	8
 2020-09-21	FOPH online	hospitalizations	12
-2020-09-22	FOPH online	hospitalizations	3
+2020-09-22	FOPH online	hospitalizations	4
 2020-09-23	FOPH online	hospitalizations	10
 2020-09-24	FOPH online	hospitalizations	8
 2020-09-25	FOPH online	hospitalizations	7
-2020-09-26	FOPH online	hospitalizations	3
-2020-09-27	FOPH online	hospitalizations	5
-2020-09-28	FOPH online	hospitalizations	3
-2020-09-29	FOPH online	hospitalizations	0
+2020-09-26	FOPH online	hospitalizations	4
+2020-09-27	FOPH online	hospitalizations	7
+2020-09-28	FOPH online	hospitalizations	6
+2020-09-29	FOPH online	hospitalizations	3
+2020-09-30	FOPH online	hospitalizations	0
 2020-02-24	FOPH online	deaths	NA
 2020-02-25	FOPH online	deaths	NA
 2020-02-26	FOPH online	deaths	NA
@@ -652,10 +654,11 @@ day_reported	data_source	variable	value
 2020-09-23	FOPH online	deaths	1
 2020-09-24	FOPH online	deaths	3
 2020-09-25	FOPH online	deaths	1
-2020-09-26	FOPH online	deaths	1
+2020-09-26	FOPH online	deaths	2
 2020-09-27	FOPH online	deaths	0
 2020-09-28	FOPH online	deaths	1
 2020-09-29	FOPH online	deaths	0
+2020-09-30	FOPH online	deaths	0
 2020-02-25	corona-data.ch	cases	0
 2020-02-26	corona-data.ch	cases	4
 2020-02-27	corona-data.ch	cases	4
@@ -872,8 +875,9 @@ day_reported	data_source	variable	value
 2020-09-25	corona-data.ch	cases	322
 2020-09-26	corona-data.ch	cases	258
 2020-09-27	corona-data.ch	cases	170
-2020-09-28	corona-data.ch	cases	222
-2020-09-29	corona-data.ch	cases	128
+2020-09-28	corona-data.ch	cases	236
+2020-09-29	corona-data.ch	cases	183
+2020-09-30	corona-data.ch	cases	272
 2020-02-25	corona-data.ch	curr_hosp	0
 2020-02-26	corona-data.ch	curr_hosp	1
 2020-02-27	corona-data.ch	curr_hosp	2
@@ -1091,7 +1095,8 @@ day_reported	data_source	variable	value
 2020-09-26	corona-data.ch	curr_hosp	183
 2020-09-27	corona-data.ch	curr_hosp	181
 2020-09-28	corona-data.ch	curr_hosp	200
-2020-09-29	corona-data.ch	curr_hosp	199
+2020-09-29	corona-data.ch	curr_hosp	194
+2020-09-30	corona-data.ch	curr_hosp	187
 2020-02-25	corona-data.ch	deaths	0
 2020-02-26	corona-data.ch	deaths	0
 2020-02-27	corona-data.ch	deaths	0
@@ -1308,5 +1313,6 @@ day_reported	data_source	variable	value
 2020-09-25	corona-data.ch	deaths	1
 2020-09-26	corona-data.ch	deaths	0
 2020-09-27	corona-data.ch	deaths	1
-2020-09-28	corona-data.ch	deaths	0
+2020-09-28	corona-data.ch	deaths	1
 2020-09-29	corona-data.ch	deaths	2
+2020-09-30	corona-data.ch	deaths	1
