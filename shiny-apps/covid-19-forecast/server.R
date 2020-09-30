@@ -56,6 +56,14 @@ shinyServer(function(input, output, session) {
         }
     })
     
+    observeEvent(input$link_to_methods, {
+        updateTabsetPanel(session, "main_menu", "Methods")
+    })
+    
+    observeEvent(input$link_to_about, {
+        updateTabsetPanel(session, "main_menu", "About")
+    })
+    
     observe_helpers(session = shiny::getDefaultReactiveDomain())
                     # help_dir = "helpfiles", withMathJax = FALSE)
     

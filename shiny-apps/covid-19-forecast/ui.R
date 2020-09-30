@@ -9,17 +9,21 @@ max_date = as.Date(current_date) - 4
 
 fluidPage(tags$head(HTML("<title>COVID-19 Forecast</title>")),
           shinyjs::useShinyjs(),
-          navbarPage(title = div(img(src="coronaLogo.png", 
+          navbarPage(id = "main_menu", title = div(img(src="coronaLogo.png", 
                                  height = 29, width = 34),
                              "COVID-19 Forecast"), inverse=TRUE,
-                   tabPanel("Home", style='width: 1300px;',
+                   tabPanel("Home", style='width: 1200px;',
                             fluidRow(align = "right",
                                      tags$img(src="logo_TPH.png", width = 97.8, height = 28.114),
                                      tags$img(src="logo_UniBas.jpg", width = 93.8, height = 30.8,
                                               style="margin-left: 25px;")),
                             titlePanel(h3("Live time-series analysis to monitor and forecast the COVID-19 outbreak in Switzerland")), 
-                            p("This resource provides real-time analysis of time series data describing the COVID-19 outbreak in Switzerland
-                               using statistical models to interpret trends and forecast short-term development."),
+                            p("This resource provides real-time analysis of time series data describing the COVID-19 outbreak in Switzerland 
+                              using statistical models to interpret trends and forecast short-term development (up to 7 days forecast from last training date).
+                              The left-hand panel allows the user to change visualisation settings, including last date for training the forecast (allowing validation) and data (cases, hospitalizations or fatalities).
+                              To find out more about the functionalities of the dashboard, check the help icons associated to each panel. 
+                              You can read more about the methods", actionLink("link_to_methods", "here"), 
+                              "and about the resource developers", actionLink("link_to_about", "here"), "."),
                             tags$br(),
                             # Sidebar layout with input and output definitions ----
                             sidebarLayout(
@@ -57,22 +61,25 @@ fluidPage(tags$head(HTML("<title>COVID-19 Forecast</title>")),
                                 ),
                                 
                                 # Main panel for displaying outputs ----
-                                mainPanel(width = 8,
+                                mainPanel(width = 10,
                                     tabsetPanel(id = "analysis_tabs",
                                                 tabPanel('Monitoring and forecasting',
                                                     helper(tags$br(), icon = "question-circle",
                                                         colour = "black",
                                                         type = "markdown",
                                                         content = "PlotTabHelp_arima"),
-                                                    p("The figures below display the results of time series analyses
+                                                    p("The figure below displays the results of time series analyses
                                                       performed on data provided by the ", 
                                                       span(textOutput("FOPH_text", inline = TRUE), 
                                                            style = "color:#fb6a4a"), 
                                                         "and data individually released by the Swiss cantons 
-                                                            aggregated by",
+                                                            processed by",
                                                       span(textOutput("CORONA_text", inline = TRUE), 
                                                            style = "color:#42B3D5"), ".", paste("Last data update:", current_date)),
-                                                    p("The data beyond the dotted line is incomplete and not used in the analysis."),
+                                                    p("The figure is interactive and allows seeing the data and model-fitted points.
+                                                      Furthermore, the user can select a rectangular area for obtaining a detailed visualization. 
+                                                      After zooming in, double-click allows to return to the initial figure. 
+                                                      The data beyond the dotted line is incomplete and not used in the analysis."),
                                                     plotlyOutput(outputId = "ARIMA_analysis")
                                                 )
                                     )
