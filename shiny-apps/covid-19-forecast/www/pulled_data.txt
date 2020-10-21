@@ -2,7 +2,7 @@ day_reported	data_source	variable	value
 2020-02-24	FOPH online	cases	1
 2020-02-25	FOPH online	cases	1
 2020-02-26	FOPH online	cases	10
-2020-02-27	FOPH online	cases	10
+2020-02-27	FOPH online	cases	11
 2020-02-28	FOPH online	cases	10
 2020-02-29	FOPH online	cases	13
 2020-03-01	FOPH online	cases	11
@@ -54,7 +54,7 @@ day_reported	data_source	variable	value
 2020-04-16	FOPH online	cases	321
 2020-04-17	FOPH online	cases	291
 2020-04-18	FOPH online	cases	144
-2020-04-19	FOPH online	cases	86
+2020-04-19	FOPH online	cases	87
 2020-04-20	FOPH online	cases	277
 2020-04-21	FOPH online	cases	213
 2020-04-22	FOPH online	cases	156
@@ -79,7 +79,7 @@ day_reported	data_source	variable	value
 2020-05-11	FOPH online	cases	47
 2020-05-12	FOPH online	cases	43
 2020-05-13	FOPH online	cases	37
-2020-05-14	FOPH online	cases	37
+2020-05-14	FOPH online	cases	38
 2020-05-15	FOPH online	cases	41
 2020-05-16	FOPH online	cases	15
 2020-05-17	FOPH online	cases	12
@@ -95,7 +95,7 @@ day_reported	data_source	variable	value
 2020-05-27	FOPH online	cases	25
 2020-05-28	FOPH online	cases	30
 2020-05-29	FOPH online	cases	21
-2020-05-30	FOPH online	cases	10
+2020-05-30	FOPH online	cases	11
 2020-05-31	FOPH online	cases	7
 2020-06-01	FOPH online	cases	3
 2020-06-02	FOPH online	cases	22
@@ -141,7 +141,7 @@ day_reported	data_source	variable	value
 2020-07-12	FOPH online	cases	46
 2020-07-13	FOPH online	cases	120
 2020-07-14	FOPH online	cases	128
-2020-07-15	FOPH online	cases	120
+2020-07-15	FOPH online	cases	122
 2020-07-16	FOPH online	cases	106
 2020-07-17	FOPH online	cases	115
 2020-07-18	FOPH online	cases	80
@@ -164,7 +164,7 @@ day_reported	data_source	variable	value
 2020-08-04	FOPH online	cases	181
 2020-08-05	FOPH online	cases	152
 2020-08-06	FOPH online	cases	156
-2020-08-07	FOPH online	cases	183
+2020-08-07	FOPH online	cases	184
 2020-08-08	FOPH online	cases	130
 2020-08-09	FOPH online	cases	99
 2020-08-10	FOPH online	cases	281
@@ -186,7 +186,7 @@ day_reported	data_source	variable	value
 2020-08-26	FOPH online	cases	362
 2020-08-27	FOPH online	cases	352
 2020-08-28	FOPH online	cases	374
-2020-08-29	FOPH online	cases	215
+2020-08-29	FOPH online	cases	216
 2020-08-30	FOPH online	cases	144
 2020-08-31	FOPH online	cases	346
 2020-09-01	FOPH online	cases	364
@@ -196,7 +196,7 @@ day_reported	data_source	variable	value
 2020-09-05	FOPH online	cases	293
 2020-09-06	FOPH online	cases	170
 2020-09-07	FOPH online	cases	466
-2020-09-08	FOPH online	cases	387
+2020-09-08	FOPH online	cases	388
 2020-09-09	FOPH online	cases	461
 2020-09-10	FOPH online	cases	506
 2020-09-11	FOPH online	cases	531
@@ -207,18 +207,38 @@ day_reported	data_source	variable	value
 2020-09-16	FOPH online	cases	516
 2020-09-17	FOPH online	cases	498
 2020-09-18	FOPH online	cases	445
-2020-09-19	FOPH online	cases	287
+2020-09-19	FOPH online	cases	285
 2020-09-20	FOPH online	cases	201
-2020-09-21	FOPH online	cases	396
+2020-09-21	FOPH online	cases	395
 2020-09-22	FOPH online	cases	425
-2020-09-23	FOPH online	cases	383
-2020-09-24	FOPH online	cases	308
-2020-09-25	FOPH online	cases	358
-2020-09-26	FOPH online	cases	218
+2020-09-23	FOPH online	cases	385
+2020-09-24	FOPH online	cases	309
+2020-09-25	FOPH online	cases	359
+2020-09-26	FOPH online	cases	222
 2020-09-27	FOPH online	cases	120
-2020-09-28	FOPH online	cases	346
-2020-09-29	FOPH online	cases	199
-2020-09-30	FOPH online	cases	0
+2020-09-28	FOPH online	cases	367
+2020-09-29	FOPH online	cases	448
+2020-09-30	FOPH online	cases	538
+2020-10-01	FOPH online	cases	597
+2020-10-02	FOPH online	cases	671
+2020-10-03	FOPH online	cases	509
+2020-10-04	FOPH online	cases	314
+2020-10-05	FOPH online	cases	1020
+2020-10-06	FOPH online	cases	1096
+2020-10-07	FOPH online	cases	1380
+2020-10-08	FOPH online	cases	1474
+2020-10-09	FOPH online	cases	1725
+2020-10-10	FOPH online	cases	1247
+2020-10-11	FOPH online	cases	808
+2020-10-12	FOPH online	cases	2561
+2020-10-13	FOPH online	cases	2690
+2020-10-14	FOPH online	cases	2994
+2020-10-15	FOPH online	cases	3384
+2020-10-16	FOPH online	cases	3681
+2020-10-17	FOPH online	cases	2334
+2020-10-18	FOPH online	cases	1633
+2020-10-19	FOPH online	cases	1941
+2020-10-20	FOPH online	cases	4
 2020-02-24	FOPH online	hospitalizations	5
 2020-02-25	FOPH online	hospitalizations	4
 2020-02-26	FOPH online	hospitalizations	9
@@ -298,7 +318,7 @@ day_reported	data_source	variable	value
 2020-05-10	FOPH online	hospitalizations	6
 2020-05-11	FOPH online	hospitalizations	5
 2020-05-12	FOPH online	hospitalizations	1
-2020-05-13	FOPH online	hospitalizations	5
+2020-05-13	FOPH online	hospitalizations	6
 2020-05-14	FOPH online	hospitalizations	3
 2020-05-15	FOPH online	hospitalizations	3
 2020-05-16	FOPH online	hospitalizations	3
@@ -334,7 +354,7 @@ day_reported	data_source	variable	value
 2020-06-15	FOPH online	hospitalizations	1
 2020-06-16	FOPH online	hospitalizations	0
 2020-06-17	FOPH online	hospitalizations	2
-2020-06-18	FOPH online	hospitalizations	2
+2020-06-18	FOPH online	hospitalizations	3
 2020-06-19	FOPH online	hospitalizations	3
 2020-06-20	FOPH online	hospitalizations	6
 2020-06-21	FOPH online	hospitalizations	0
@@ -344,7 +364,7 @@ day_reported	data_source	variable	value
 2020-06-25	FOPH online	hospitalizations	0
 2020-06-26	FOPH online	hospitalizations	4
 2020-06-27	FOPH online	hospitalizations	1
-2020-06-28	FOPH online	hospitalizations	0
+2020-06-28	FOPH online	hospitalizations	1
 2020-06-29	FOPH online	hospitalizations	5
 2020-06-30	FOPH online	hospitalizations	8
 2020-07-01	FOPH online	hospitalizations	6
@@ -377,13 +397,13 @@ day_reported	data_source	variable	value
 2020-07-28	FOPH online	hospitalizations	12
 2020-07-29	FOPH online	hospitalizations	14
 2020-07-30	FOPH online	hospitalizations	5
-2020-07-31	FOPH online	hospitalizations	7
+2020-07-31	FOPH online	hospitalizations	8
 2020-08-01	FOPH online	hospitalizations	6
 2020-08-02	FOPH online	hospitalizations	5
 2020-08-03	FOPH online	hospitalizations	4
 2020-08-04	FOPH online	hospitalizations	2
 2020-08-05	FOPH online	hospitalizations	7
-2020-08-06	FOPH online	hospitalizations	11
+2020-08-06	FOPH online	hospitalizations	10
 2020-08-07	FOPH online	hospitalizations	6
 2020-08-08	FOPH online	hospitalizations	8
 2020-08-09	FOPH online	hospitalizations	7
@@ -400,45 +420,65 @@ day_reported	data_source	variable	value
 2020-08-20	FOPH online	hospitalizations	7
 2020-08-21	FOPH online	hospitalizations	8
 2020-08-22	FOPH online	hospitalizations	4
-2020-08-23	FOPH online	hospitalizations	5
-2020-08-24	FOPH online	hospitalizations	6
+2020-08-23	FOPH online	hospitalizations	6
+2020-08-24	FOPH online	hospitalizations	7
 2020-08-25	FOPH online	hospitalizations	5
 2020-08-26	FOPH online	hospitalizations	6
-2020-08-27	FOPH online	hospitalizations	4
-2020-08-28	FOPH online	hospitalizations	7
+2020-08-27	FOPH online	hospitalizations	5
+2020-08-28	FOPH online	hospitalizations	9
 2020-08-29	FOPH online	hospitalizations	2
-2020-08-30	FOPH online	hospitalizations	6
-2020-08-31	FOPH online	hospitalizations	4
-2020-09-01	FOPH online	hospitalizations	8
+2020-08-30	FOPH online	hospitalizations	7
+2020-08-31	FOPH online	hospitalizations	5
+2020-09-01	FOPH online	hospitalizations	10
 2020-09-02	FOPH online	hospitalizations	10
-2020-09-03	FOPH online	hospitalizations	7
+2020-09-03	FOPH online	hospitalizations	8
 2020-09-04	FOPH online	hospitalizations	9
-2020-09-05	FOPH online	hospitalizations	7
-2020-09-06	FOPH online	hospitalizations	6
-2020-09-07	FOPH online	hospitalizations	13
-2020-09-08	FOPH online	hospitalizations	4
+2020-09-05	FOPH online	hospitalizations	8
+2020-09-06	FOPH online	hospitalizations	7
+2020-09-07	FOPH online	hospitalizations	14
+2020-09-08	FOPH online	hospitalizations	5
 2020-09-09	FOPH online	hospitalizations	11
-2020-09-10	FOPH online	hospitalizations	16
-2020-09-11	FOPH online	hospitalizations	10
+2020-09-10	FOPH online	hospitalizations	17
+2020-09-11	FOPH online	hospitalizations	11
 2020-09-12	FOPH online	hospitalizations	12
 2020-09-13	FOPH online	hospitalizations	11
 2020-09-14	FOPH online	hospitalizations	10
-2020-09-15	FOPH online	hospitalizations	8
-2020-09-16	FOPH online	hospitalizations	17
-2020-09-17	FOPH online	hospitalizations	7
-2020-09-18	FOPH online	hospitalizations	14
+2020-09-15	FOPH online	hospitalizations	10
+2020-09-16	FOPH online	hospitalizations	19
+2020-09-17	FOPH online	hospitalizations	9
+2020-09-18	FOPH online	hospitalizations	15
 2020-09-19	FOPH online	hospitalizations	8
-2020-09-20	FOPH online	hospitalizations	8
-2020-09-21	FOPH online	hospitalizations	12
-2020-09-22	FOPH online	hospitalizations	4
-2020-09-23	FOPH online	hospitalizations	10
-2020-09-24	FOPH online	hospitalizations	8
-2020-09-25	FOPH online	hospitalizations	7
-2020-09-26	FOPH online	hospitalizations	4
-2020-09-27	FOPH online	hospitalizations	7
-2020-09-28	FOPH online	hospitalizations	6
-2020-09-29	FOPH online	hospitalizations	3
-2020-09-30	FOPH online	hospitalizations	0
+2020-09-20	FOPH online	hospitalizations	11
+2020-09-21	FOPH online	hospitalizations	14
+2020-09-22	FOPH online	hospitalizations	5
+2020-09-23	FOPH online	hospitalizations	11
+2020-09-24	FOPH online	hospitalizations	9
+2020-09-25	FOPH online	hospitalizations	10
+2020-09-26	FOPH online	hospitalizations	6
+2020-09-27	FOPH online	hospitalizations	16
+2020-09-28	FOPH online	hospitalizations	11
+2020-09-29	FOPH online	hospitalizations	19
+2020-09-30	FOPH online	hospitalizations	16
+2020-10-01	FOPH online	hospitalizations	9
+2020-10-02	FOPH online	hospitalizations	15
+2020-10-03	FOPH online	hospitalizations	11
+2020-10-04	FOPH online	hospitalizations	11
+2020-10-05	FOPH online	hospitalizations	8
+2020-10-06	FOPH online	hospitalizations	21
+2020-10-07	FOPH online	hospitalizations	27
+2020-10-08	FOPH online	hospitalizations	35
+2020-10-09	FOPH online	hospitalizations	26
+2020-10-10	FOPH online	hospitalizations	25
+2020-10-11	FOPH online	hospitalizations	31
+2020-10-12	FOPH online	hospitalizations	48
+2020-10-13	FOPH online	hospitalizations	43
+2020-10-14	FOPH online	hospitalizations	52
+2020-10-15	FOPH online	hospitalizations	47
+2020-10-16	FOPH online	hospitalizations	40
+2020-10-17	FOPH online	hospitalizations	42
+2020-10-18	FOPH online	hospitalizations	16
+2020-10-19	FOPH online	hospitalizations	10
+2020-10-20	FOPH online	hospitalizations	1
 2020-02-24	FOPH online	deaths	NA
 2020-02-25	FOPH online	deaths	NA
 2020-02-26	FOPH online	deaths	NA
@@ -649,104 +689,124 @@ day_reported	data_source	variable	value
 2020-09-18	FOPH online	deaths	2
 2020-09-19	FOPH online	deaths	1
 2020-09-20	FOPH online	deaths	0
-2020-09-21	FOPH online	deaths	2
+2020-09-21	FOPH online	deaths	3
 2020-09-22	FOPH online	deaths	1
 2020-09-23	FOPH online	deaths	1
 2020-09-24	FOPH online	deaths	3
 2020-09-25	FOPH online	deaths	1
 2020-09-26	FOPH online	deaths	2
-2020-09-27	FOPH online	deaths	0
-2020-09-28	FOPH online	deaths	1
-2020-09-29	FOPH online	deaths	0
+2020-09-27	FOPH online	deaths	1
+2020-09-28	FOPH online	deaths	3
+2020-09-29	FOPH online	deaths	1
 2020-09-30	FOPH online	deaths	0
+2020-10-01	FOPH online	deaths	4
+2020-10-02	FOPH online	deaths	0
+2020-10-03	FOPH online	deaths	0
+2020-10-04	FOPH online	deaths	1
+2020-10-05	FOPH online	deaths	2
+2020-10-06	FOPH online	deaths	1
+2020-10-07	FOPH online	deaths	2
+2020-10-08	FOPH online	deaths	3
+2020-10-09	FOPH online	deaths	3
+2020-10-10	FOPH online	deaths	3
+2020-10-11	FOPH online	deaths	3
+2020-10-12	FOPH online	deaths	5
+2020-10-13	FOPH online	deaths	5
+2020-10-14	FOPH online	deaths	4
+2020-10-15	FOPH online	deaths	3
+2020-10-16	FOPH online	deaths	7
+2020-10-17	FOPH online	deaths	6
+2020-10-18	FOPH online	deaths	3
+2020-10-19	FOPH online	deaths	2
+2020-10-20	FOPH online	deaths	0
 2020-02-25	corona-data.ch	cases	0
-2020-02-26	corona-data.ch	cases	4
+2020-02-26	corona-data.ch	cases	5
 2020-02-27	corona-data.ch	cases	4
-2020-02-28	corona-data.ch	cases	11
-2020-02-29	corona-data.ch	cases	10
-2020-03-01	corona-data.ch	cases	6
-2020-03-02	corona-data.ch	cases	14
-2020-03-03	corona-data.ch	cases	19
-2020-03-04	corona-data.ch	cases	28
-2020-03-05	corona-data.ch	cases	47
+2020-02-28	corona-data.ch	cases	10
+2020-02-29	corona-data.ch	cases	12
+2020-03-01	corona-data.ch	cases	7
+2020-03-02	corona-data.ch	cases	18
+2020-03-03	corona-data.ch	cases	15
+2020-03-04	corona-data.ch	cases	30
+2020-03-05	corona-data.ch	cases	46
 2020-03-06	corona-data.ch	cases	75
-2020-03-07	corona-data.ch	cases	61
-2020-03-08	corona-data.ch	cases	48
-2020-03-09	corona-data.ch	cases	93
-2020-03-10	corona-data.ch	cases	154
-2020-03-11	corona-data.ch	cases	235
-2020-03-12	corona-data.ch	cases	321
+2020-03-07	corona-data.ch	cases	63
+2020-03-08	corona-data.ch	cases	49
+2020-03-09	corona-data.ch	cases	98
+2020-03-10	corona-data.ch	cases	158
+2020-03-11	corona-data.ch	cases	242
+2020-03-12	corona-data.ch	cases	317
 2020-03-13	corona-data.ch	cases	337
-2020-03-14	corona-data.ch	cases	405
-2020-03-15	corona-data.ch	cases	293
-2020-03-16	corona-data.ch	cases	800
-2020-03-17	corona-data.ch	cases	769
-2020-03-18	corona-data.ch	cases	1143
-2020-03-19	corona-data.ch	cases	1040
-2020-03-20	corona-data.ch	cases	1221
-2020-03-21	corona-data.ch	cases	897
-2020-03-22	corona-data.ch	cases	583
-2020-03-23	corona-data.ch	cases	1236
-2020-03-24	corona-data.ch	cases	1107
-2020-03-25	corona-data.ch	cases	1147
-2020-03-26	corona-data.ch	cases	1080
-2020-03-27	corona-data.ch	cases	1313
-2020-03-28	corona-data.ch	cases	833
-2020-03-29	corona-data.ch	cases	607
-2020-03-30	corona-data.ch	cases	1124
-2020-03-31	corona-data.ch	cases	945
-2020-04-01	corona-data.ch	cases	1072
-2020-04-02	corona-data.ch	cases	1098
-2020-04-03	corona-data.ch	cases	974
-2020-04-04	corona-data.ch	cases	574
-2020-04-05	corona-data.ch	cases	402
-2020-04-06	corona-data.ch	cases	752
-2020-04-07	corona-data.ch	cases	689
-2020-04-08	corona-data.ch	cases	667
-2020-04-09	corona-data.ch	cases	670
-2020-04-10	corona-data.ch	cases	462
-2020-04-11	corona-data.ch	cases	459
-2020-04-12	corona-data.ch	cases	270
-2020-04-13	corona-data.ch	cases	240
-2020-04-14	corona-data.ch	cases	329
-2020-04-15	corona-data.ch	cases	319
-2020-04-16	corona-data.ch	cases	304
-2020-04-17	corona-data.ch	cases	303
-2020-04-18	corona-data.ch	cases	265
-2020-04-19	corona-data.ch	cases	177
+2020-03-14	corona-data.ch	cases	414
+2020-03-15	corona-data.ch	cases	300
+2020-03-16	corona-data.ch	cases	824
+2020-03-17	corona-data.ch	cases	765
+2020-03-18	corona-data.ch	cases	1144
+2020-03-19	corona-data.ch	cases	1058
+2020-03-20	corona-data.ch	cases	1246
+2020-03-21	corona-data.ch	cases	943
+2020-03-22	corona-data.ch	cases	542
+2020-03-23	corona-data.ch	cases	1204
+2020-03-24	corona-data.ch	cases	1135
+2020-03-25	corona-data.ch	cases	1135
+2020-03-26	corona-data.ch	cases	1073
+2020-03-27	corona-data.ch	cases	1345
+2020-03-28	corona-data.ch	cases	842
+2020-03-29	corona-data.ch	cases	620
+2020-03-30	corona-data.ch	cases	1037
+2020-03-31	corona-data.ch	cases	1007
+2020-04-01	corona-data.ch	cases	1064
+2020-04-02	corona-data.ch	cases	1067
+2020-04-03	corona-data.ch	cases	988
+2020-04-04	corona-data.ch	cases	588
+2020-04-05	corona-data.ch	cases	431
+2020-04-06	corona-data.ch	cases	698
+2020-04-07	corona-data.ch	cases	682
+2020-04-08	corona-data.ch	cases	672
+2020-04-09	corona-data.ch	cases	625
+2020-04-10	corona-data.ch	cases	432
+2020-04-11	corona-data.ch	cases	449
+2020-04-12	corona-data.ch	cases	256
+2020-04-13	corona-data.ch	cases	238
+2020-04-14	corona-data.ch	cases	341
+2020-04-15	corona-data.ch	cases	312
+2020-04-16	corona-data.ch	cases	309
+2020-04-17	corona-data.ch	cases	308
+2020-04-18	corona-data.ch	cases	254
+2020-04-19	corona-data.ch	cases	168
 2020-04-20	corona-data.ch	cases	203
-2020-04-21	corona-data.ch	cases	164
+2020-04-21	corona-data.ch	cases	176
 2020-04-22	corona-data.ch	cases	215
-2020-04-23	corona-data.ch	cases	212
-2020-04-24	corona-data.ch	cases	187
-2020-04-25	corona-data.ch	cases	143
-2020-04-26	corona-data.ch	cases	75
-2020-04-27	corona-data.ch	cases	170
-2020-04-28	corona-data.ch	cases	129
-2020-04-29	corona-data.ch	cases	141
-2020-04-30	corona-data.ch	cases	145
-2020-05-01	corona-data.ch	cases	127
-2020-05-02	corona-data.ch	cases	72
+2020-04-23	corona-data.ch	cases	209
+2020-04-24	corona-data.ch	cases	189
+2020-04-25	corona-data.ch	cases	148
+2020-04-26	corona-data.ch	cases	77
+2020-04-27	corona-data.ch	cases	141
+2020-04-28	corona-data.ch	cases	125
+2020-04-29	corona-data.ch	cases	142
+2020-04-30	corona-data.ch	cases	139
+2020-05-01	corona-data.ch	cases	116
+2020-05-02	corona-data.ch	cases	71
 2020-05-03	corona-data.ch	cases	61
-2020-05-04	corona-data.ch	cases	54
-2020-05-05	corona-data.ch	cases	63
-2020-05-06	corona-data.ch	cases	84
-2020-05-07	corona-data.ch	cases	69
+2020-05-04	corona-data.ch	cases	51
+2020-05-05	corona-data.ch	cases	64
+2020-05-06	corona-data.ch	cases	87
+2020-05-07	corona-data.ch	cases	67
 2020-05-08	corona-data.ch	cases	66
 2020-05-09	corona-data.ch	cases	45
 2020-05-10	corona-data.ch	cases	36
-2020-05-11	corona-data.ch	cases	58
-2020-05-12	corona-data.ch	cases	48
-2020-05-13	corona-data.ch	cases	43
+2020-05-11	corona-data.ch	cases	56
+2020-05-12	corona-data.ch	cases	47
+2020-05-13	corona-data.ch	cases	44
 2020-05-14	corona-data.ch	cases	40
-2020-05-15	corona-data.ch	cases	44
-2020-05-16	corona-data.ch	cases	32
+2020-05-15	corona-data.ch	cases	43
+2020-05-16	corona-data.ch	cases	33
 2020-05-17	corona-data.ch	cases	19
-2020-05-18	corona-data.ch	cases	29
+2020-05-18	corona-data.ch	cases	28
 2020-05-19	corona-data.ch	cases	28
-2020-05-20	corona-data.ch	cases	38
-2020-05-21	corona-data.ch	cases	28
-2020-05-22	corona-data.ch	cases	22
+2020-05-20	corona-data.ch	cases	37
+2020-05-21	corona-data.ch	cases	27
+2020-05-22	corona-data.ch	cases	23
 2020-05-23	corona-data.ch	cases	20
 2020-05-24	corona-data.ch	cases	10
 2020-05-25	corona-data.ch	cases	6
@@ -758,126 +818,147 @@ day_reported	data_source	variable	value
 2020-05-31	corona-data.ch	cases	10
 2020-06-01	corona-data.ch	cases	3
 2020-06-02	corona-data.ch	cases	17
-2020-06-03	corona-data.ch	cases	19
+2020-06-03	corona-data.ch	cases	18
 2020-06-04	corona-data.ch	cases	24
 2020-06-05	corona-data.ch	cases	22
-2020-06-06	corona-data.ch	cases	14
+2020-06-06	corona-data.ch	cases	15
 2020-06-07	corona-data.ch	cases	8
-2020-06-08	corona-data.ch	cases	16
-2020-06-09	corona-data.ch	cases	10
-2020-06-10	corona-data.ch	cases	17
-2020-06-11	corona-data.ch	cases	22
+2020-06-08	corona-data.ch	cases	18
+2020-06-09	corona-data.ch	cases	11
+2020-06-10	corona-data.ch	cases	18
+2020-06-11	corona-data.ch	cases	24
 2020-06-12	corona-data.ch	cases	28
 2020-06-13	corona-data.ch	cases	11
 2020-06-14	corona-data.ch	cases	17
-2020-06-15	corona-data.ch	cases	21
-2020-06-16	corona-data.ch	cases	28
-2020-06-17	corona-data.ch	cases	34
-2020-06-18	corona-data.ch	cases	14
+2020-06-15	corona-data.ch	cases	24
+2020-06-16	corona-data.ch	cases	27
+2020-06-17	corona-data.ch	cases	24
+2020-06-18	corona-data.ch	cases	15
 2020-06-19	corona-data.ch	cases	29
-2020-06-20	corona-data.ch	cases	28
-2020-06-21	corona-data.ch	cases	15
+2020-06-20	corona-data.ch	cases	29
+2020-06-21	corona-data.ch	cases	16
 2020-06-22	corona-data.ch	cases	33
-2020-06-23	corona-data.ch	cases	30
+2020-06-23	corona-data.ch	cases	31
 2020-06-24	corona-data.ch	cases	66
-2020-06-25	corona-data.ch	cases	39
-2020-06-26	corona-data.ch	cases	73
-2020-06-27	corona-data.ch	cases	38
-2020-06-28	corona-data.ch	cases	40
-2020-06-29	corona-data.ch	cases	79
-2020-06-30	corona-data.ch	cases	104
-2020-07-01	corona-data.ch	cases	132
-2020-07-02	corona-data.ch	cases	141
-2020-07-03	corona-data.ch	cases	102
-2020-07-04	corona-data.ch	cases	46
-2020-07-05	corona-data.ch	cases	54
-2020-07-06	corona-data.ch	cases	84
-2020-07-07	corona-data.ch	cases	94
-2020-07-08	corona-data.ch	cases	102
-2020-07-09	corona-data.ch	cases	89
-2020-07-10	corona-data.ch	cases	102
-2020-07-11	corona-data.ch	cases	70
-2020-07-12	corona-data.ch	cases	64
-2020-07-13	corona-data.ch	cases	91
-2020-07-14	corona-data.ch	cases	122
-2020-07-15	corona-data.ch	cases	145
-2020-07-16	corona-data.ch	cases	99
-2020-07-17	corona-data.ch	cases	117
-2020-07-18	corona-data.ch	cases	66
-2020-07-19	corona-data.ch	cases	52
-2020-07-20	corona-data.ch	cases	106
-2020-07-21	corona-data.ch	cases	140
-2020-07-22	corona-data.ch	cases	128
-2020-07-23	corona-data.ch	cases	156
-2020-07-24	corona-data.ch	cases	138
-2020-07-25	corona-data.ch	cases	98
-2020-07-26	corona-data.ch	cases	48
-2020-07-27	corona-data.ch	cases	153
+2020-06-25	corona-data.ch	cases	41
+2020-06-26	corona-data.ch	cases	70
+2020-06-27	corona-data.ch	cases	40
+2020-06-28	corona-data.ch	cases	41
+2020-06-29	corona-data.ch	cases	89
+2020-06-30	corona-data.ch	cases	106
+2020-07-01	corona-data.ch	cases	120
+2020-07-02	corona-data.ch	cases	148
+2020-07-03	corona-data.ch	cases	96
+2020-07-04	corona-data.ch	cases	49
+2020-07-05	corona-data.ch	cases	57
+2020-07-06	corona-data.ch	cases	80
+2020-07-07	corona-data.ch	cases	98
+2020-07-08	corona-data.ch	cases	101
+2020-07-09	corona-data.ch	cases	88
+2020-07-10	corona-data.ch	cases	93
+2020-07-11	corona-data.ch	cases	73
+2020-07-12	corona-data.ch	cases	68
+2020-07-13	corona-data.ch	cases	84
+2020-07-14	corona-data.ch	cases	121
+2020-07-15	corona-data.ch	cases	148
+2020-07-16	corona-data.ch	cases	97
+2020-07-17	corona-data.ch	cases	126
+2020-07-18	corona-data.ch	cases	68
+2020-07-19	corona-data.ch	cases	54
+2020-07-20	corona-data.ch	cases	103
+2020-07-21	corona-data.ch	cases	146
+2020-07-22	corona-data.ch	cases	124
+2020-07-23	corona-data.ch	cases	143
+2020-07-24	corona-data.ch	cases	147
+2020-07-25	corona-data.ch	cases	100
+2020-07-26	corona-data.ch	cases	50
+2020-07-27	corona-data.ch	cases	152
 2020-07-28	corona-data.ch	cases	167
 2020-07-29	corona-data.ch	cases	229
-2020-07-30	corona-data.ch	cases	216
-2020-07-31	corona-data.ch	cases	157
+2020-07-30	corona-data.ch	cases	209
+2020-07-31	corona-data.ch	cases	154
 2020-08-01	corona-data.ch	cases	145
-2020-08-02	corona-data.ch	cases	81
-2020-08-03	corona-data.ch	cases	125
-2020-08-04	corona-data.ch	cases	132
-2020-08-05	corona-data.ch	cases	203
-2020-08-06	corona-data.ch	cases	167
-2020-08-07	corona-data.ch	cases	167
-2020-08-08	corona-data.ch	cases	125
-2020-08-09	corona-data.ch	cases	89
-2020-08-10	corona-data.ch	cases	194
-2020-08-11	corona-data.ch	cases	263
+2020-08-02	corona-data.ch	cases	83
+2020-08-03	corona-data.ch	cases	123
+2020-08-04	corona-data.ch	cases	143
+2020-08-05	corona-data.ch	cases	207
+2020-08-06	corona-data.ch	cases	161
+2020-08-07	corona-data.ch	cases	170
+2020-08-08	corona-data.ch	cases	130
+2020-08-09	corona-data.ch	cases	88
+2020-08-10	corona-data.ch	cases	186
+2020-08-11	corona-data.ch	cases	264
 2020-08-12	corona-data.ch	cases	229
-2020-08-13	corona-data.ch	cases	283
-2020-08-14	corona-data.ch	cases	230
-2020-08-15	corona-data.ch	cases	205
-2020-08-16	corona-data.ch	cases	135
-2020-08-17	corona-data.ch	cases	223
-2020-08-18	corona-data.ch	cases	269
-2020-08-19	corona-data.ch	cases	313
-2020-08-20	corona-data.ch	cases	305
-2020-08-21	corona-data.ch	cases	320
-2020-08-22	corona-data.ch	cases	196
-2020-08-23	corona-data.ch	cases	187
-2020-08-24	corona-data.ch	cases	245
-2020-08-25	corona-data.ch	cases	277
-2020-08-26	corona-data.ch	cases	374
-2020-08-27	corona-data.ch	cases	348
-2020-08-28	corona-data.ch	cases	372
-2020-08-29	corona-data.ch	cases	254
-2020-08-30	corona-data.ch	cases	212
-2020-08-31	corona-data.ch	cases	237
-2020-09-01	corona-data.ch	cases	328
-2020-09-02	corona-data.ch	cases	357
-2020-09-03	corona-data.ch	cases	419
-2020-09-04	corona-data.ch	cases	415
-2020-09-05	corona-data.ch	cases	342
-2020-09-06	corona-data.ch	cases	229
-2020-09-07	corona-data.ch	cases	341
-2020-09-08	corona-data.ch	cases	402
-2020-09-09	corona-data.ch	cases	403
-2020-09-10	corona-data.ch	cases	526
-2020-09-11	corona-data.ch	cases	470
-2020-09-12	corona-data.ch	cases	348
-2020-09-13	corona-data.ch	cases	312
-2020-09-14	corona-data.ch	cases	353
-2020-09-15	corona-data.ch	cases	443
-2020-09-16	corona-data.ch	cases	492
-2020-09-17	corona-data.ch	cases	530
-2020-09-18	corona-data.ch	cases	438
-2020-09-19	corona-data.ch	cases	310
-2020-09-20	corona-data.ch	cases	281
-2020-09-21	corona-data.ch	cases	340
-2020-09-22	corona-data.ch	cases	397
-2020-09-23	corona-data.ch	cases	382
-2020-09-24	corona-data.ch	cases	336
-2020-09-25	corona-data.ch	cases	322
-2020-09-26	corona-data.ch	cases	258
-2020-09-27	corona-data.ch	cases	170
-2020-09-28	corona-data.ch	cases	236
-2020-09-29	corona-data.ch	cases	183
-2020-09-30	corona-data.ch	cases	272
+2020-08-13	corona-data.ch	cases	287
+2020-08-14	corona-data.ch	cases	223
+2020-08-15	corona-data.ch	cases	208
+2020-08-16	corona-data.ch	cases	120
+2020-08-17	corona-data.ch	cases	230
+2020-08-18	corona-data.ch	cases	266
+2020-08-19	corona-data.ch	cases	308
+2020-08-20	corona-data.ch	cases	310
+2020-08-21	corona-data.ch	cases	325
+2020-08-22	corona-data.ch	cases	198
+2020-08-23	corona-data.ch	cases	174
+2020-08-24	corona-data.ch	cases	252
+2020-08-25	corona-data.ch	cases	273
+2020-08-26	corona-data.ch	cases	375
+2020-08-27	corona-data.ch	cases	342
+2020-08-28	corona-data.ch	cases	380
+2020-08-29	corona-data.ch	cases	258
+2020-08-30	corona-data.ch	cases	202
+2020-08-31	corona-data.ch	cases	246
+2020-09-01	corona-data.ch	cases	329
+2020-09-02	corona-data.ch	cases	358
+2020-09-03	corona-data.ch	cases	422
+2020-09-04	corona-data.ch	cases	430
+2020-09-05	corona-data.ch	cases	336
+2020-09-06	corona-data.ch	cases	231
+2020-09-07	corona-data.ch	cases	355
+2020-09-08	corona-data.ch	cases	394
+2020-09-09	corona-data.ch	cases	422
+2020-09-10	corona-data.ch	cases	505
+2020-09-11	corona-data.ch	cases	485
+2020-09-12	corona-data.ch	cases	355
+2020-09-13	corona-data.ch	cases	284
+2020-09-14	corona-data.ch	cases	363
+2020-09-15	corona-data.ch	cases	441
+2020-09-16	corona-data.ch	cases	499
+2020-09-17	corona-data.ch	cases	521
+2020-09-18	corona-data.ch	cases	462
+2020-09-19	corona-data.ch	cases	317
+2020-09-20	corona-data.ch	cases	246
+2020-09-21	corona-data.ch	cases	348
+2020-09-22	corona-data.ch	cases	391
+2020-09-23	corona-data.ch	cases	381
+2020-09-24	corona-data.ch	cases	341
+2020-09-25	corona-data.ch	cases	332
+2020-09-26	corona-data.ch	cases	262
+2020-09-27	corona-data.ch	cases	152
+2020-09-28	corona-data.ch	cases	272
+2020-09-29	corona-data.ch	cases	338
+2020-09-30	corona-data.ch	cases	509
+2020-10-01	corona-data.ch	cases	531
+2020-10-02	corona-data.ch	cases	534
+2020-10-03	corona-data.ch	cases	467
+2020-10-04	corona-data.ch	cases	488
+2020-10-05	corona-data.ch	cases	686
+2020-10-06	corona-data.ch	cases	952
+2020-10-07	corona-data.ch	cases	1181
+2020-10-08	corona-data.ch	cases	1256
+2020-10-09	corona-data.ch	cases	1488
+2020-10-10	corona-data.ch	cases	1249
+2020-10-11	corona-data.ch	cases	876
+2020-10-12	corona-data.ch	cases	1951
+2020-10-13	corona-data.ch	cases	2148
+2020-10-14	corona-data.ch	cases	2591
+2020-10-15	corona-data.ch	cases	2859
+2020-10-16	corona-data.ch	cases	3490
+2020-10-17	corona-data.ch	cases	2741
+2020-10-18	corona-data.ch	cases	2129
+2020-10-19	corona-data.ch	cases	2635
+2020-10-20	corona-data.ch	cases	2014
+2020-10-21	corona-data.ch	cases	9
 2020-02-25	corona-data.ch	curr_hosp	0
 2020-02-26	corona-data.ch	curr_hosp	1
 2020-02-27	corona-data.ch	curr_hosp	2
@@ -899,7 +980,7 @@ day_reported	data_source	variable	value
 2020-03-14	corona-data.ch	curr_hosp	302
 2020-03-15	corona-data.ch	curr_hosp	338
 2020-03-16	corona-data.ch	curr_hosp	442
-2020-03-17	corona-data.ch	curr_hosp	525
+2020-03-17	corona-data.ch	curr_hosp	551
 2020-03-18	corona-data.ch	curr_hosp	616
 2020-03-19	corona-data.ch	curr_hosp	740
 2020-03-20	corona-data.ch	curr_hosp	841
@@ -960,7 +1041,7 @@ day_reported	data_source	variable	value
 2020-05-14	corona-data.ch	curr_hosp	546
 2020-05-15	corona-data.ch	curr_hosp	512
 2020-05-16	corona-data.ch	curr_hosp	496
-2020-05-17	corona-data.ch	curr_hosp	498
+2020-05-17	corona-data.ch	curr_hosp	497
 2020-05-18	corona-data.ch	curr_hosp	479
 2020-05-19	corona-data.ch	curr_hosp	307
 2020-05-20	corona-data.ch	curr_hosp	286
@@ -971,132 +1052,153 @@ day_reported	data_source	variable	value
 2020-05-25	corona-data.ch	curr_hosp	247
 2020-05-26	corona-data.ch	curr_hosp	237
 2020-05-27	corona-data.ch	curr_hosp	216
-2020-05-28	corona-data.ch	curr_hosp	212
-2020-05-29	corona-data.ch	curr_hosp	188
-2020-05-30	corona-data.ch	curr_hosp	171
-2020-05-31	corona-data.ch	curr_hosp	169
-2020-06-01	corona-data.ch	curr_hosp	166
-2020-06-02	corona-data.ch	curr_hosp	168
-2020-06-03	corona-data.ch	curr_hosp	144
-2020-06-04	corona-data.ch	curr_hosp	145
-2020-06-05	corona-data.ch	curr_hosp	143
-2020-06-06	corona-data.ch	curr_hosp	133
-2020-06-07	corona-data.ch	curr_hosp	130
-2020-06-08	corona-data.ch	curr_hosp	117
-2020-06-09	corona-data.ch	curr_hosp	117
-2020-06-10	corona-data.ch	curr_hosp	113
-2020-06-11	corona-data.ch	curr_hosp	106
-2020-06-12	corona-data.ch	curr_hosp	111
-2020-06-13	corona-data.ch	curr_hosp	106
-2020-06-14	corona-data.ch	curr_hosp	106
-2020-06-15	corona-data.ch	curr_hosp	95
-2020-06-16	corona-data.ch	curr_hosp	90
-2020-06-17	corona-data.ch	curr_hosp	94
-2020-06-18	corona-data.ch	curr_hosp	92
-2020-06-19	corona-data.ch	curr_hosp	91
-2020-06-20	corona-data.ch	curr_hosp	90
-2020-06-21	corona-data.ch	curr_hosp	92
-2020-06-22	corona-data.ch	curr_hosp	94
-2020-06-23	corona-data.ch	curr_hosp	88
-2020-06-24	corona-data.ch	curr_hosp	88
-2020-06-25	corona-data.ch	curr_hosp	84
-2020-06-26	corona-data.ch	curr_hosp	86
-2020-06-27	corona-data.ch	curr_hosp	85
-2020-06-28	corona-data.ch	curr_hosp	84
-2020-06-29	corona-data.ch	curr_hosp	93
-2020-06-30	corona-data.ch	curr_hosp	95
-2020-07-01	corona-data.ch	curr_hosp	95
-2020-07-02	corona-data.ch	curr_hosp	89
-2020-07-03	corona-data.ch	curr_hosp	87
-2020-07-04	corona-data.ch	curr_hosp	87
-2020-07-05	corona-data.ch	curr_hosp	91
-2020-07-06	corona-data.ch	curr_hosp	91
-2020-07-07	corona-data.ch	curr_hosp	92
-2020-07-08	corona-data.ch	curr_hosp	85
-2020-07-09	corona-data.ch	curr_hosp	85
-2020-07-10	corona-data.ch	curr_hosp	88
-2020-07-11	corona-data.ch	curr_hosp	86
-2020-07-12	corona-data.ch	curr_hosp	94
-2020-07-13	corona-data.ch	curr_hosp	109
-2020-07-14	corona-data.ch	curr_hosp	105
+2020-05-28	corona-data.ch	curr_hosp	204
+2020-05-29	corona-data.ch	curr_hosp	184
+2020-05-30	corona-data.ch	curr_hosp	168
+2020-05-31	corona-data.ch	curr_hosp	166
+2020-06-01	corona-data.ch	curr_hosp	163
+2020-06-02	corona-data.ch	curr_hosp	162
+2020-06-03	corona-data.ch	curr_hosp	138
+2020-06-04	corona-data.ch	curr_hosp	138
+2020-06-05	corona-data.ch	curr_hosp	137
+2020-06-06	corona-data.ch	curr_hosp	128
+2020-06-07	corona-data.ch	curr_hosp	125
+2020-06-08	corona-data.ch	curr_hosp	110
+2020-06-09	corona-data.ch	curr_hosp	107
+2020-06-10	corona-data.ch	curr_hosp	104
+2020-06-11	corona-data.ch	curr_hosp	102
+2020-06-12	corona-data.ch	curr_hosp	106
+2020-06-13	corona-data.ch	curr_hosp	101
+2020-06-14	corona-data.ch	curr_hosp	101
+2020-06-15	corona-data.ch	curr_hosp	93
+2020-06-16	corona-data.ch	curr_hosp	88
+2020-06-17	corona-data.ch	curr_hosp	91
+2020-06-18	corona-data.ch	curr_hosp	91
+2020-06-19	corona-data.ch	curr_hosp	92
+2020-06-20	corona-data.ch	curr_hosp	89
+2020-06-21	corona-data.ch	curr_hosp	88
+2020-06-22	corona-data.ch	curr_hosp	88
+2020-06-23	corona-data.ch	curr_hosp	83
+2020-06-24	corona-data.ch	curr_hosp	84
+2020-06-25	corona-data.ch	curr_hosp	80
+2020-06-26	corona-data.ch	curr_hosp	84
+2020-06-27	corona-data.ch	curr_hosp	81
+2020-06-28	corona-data.ch	curr_hosp	80
+2020-06-29	corona-data.ch	curr_hosp	91
+2020-06-30	corona-data.ch	curr_hosp	92
+2020-07-01	corona-data.ch	curr_hosp	91
+2020-07-02	corona-data.ch	curr_hosp	87
+2020-07-03	corona-data.ch	curr_hosp	84
+2020-07-04	corona-data.ch	curr_hosp	84
+2020-07-05	corona-data.ch	curr_hosp	89
+2020-07-06	corona-data.ch	curr_hosp	87
+2020-07-07	corona-data.ch	curr_hosp	87
+2020-07-08	corona-data.ch	curr_hosp	81
+2020-07-09	corona-data.ch	curr_hosp	82
+2020-07-10	corona-data.ch	curr_hosp	87
+2020-07-11	corona-data.ch	curr_hosp	84
+2020-07-12	corona-data.ch	curr_hosp	92
+2020-07-13	corona-data.ch	curr_hosp	106
+2020-07-14	corona-data.ch	curr_hosp	102
 2020-07-15	corona-data.ch	curr_hosp	105
 2020-07-16	corona-data.ch	curr_hosp	102
-2020-07-17	corona-data.ch	curr_hosp	112
-2020-07-18	corona-data.ch	curr_hosp	110
-2020-07-19	corona-data.ch	curr_hosp	114
-2020-07-20	corona-data.ch	curr_hosp	114
-2020-07-21	corona-data.ch	curr_hosp	115
-2020-07-22	corona-data.ch	curr_hosp	107
-2020-07-23	corona-data.ch	curr_hosp	112
-2020-07-24	corona-data.ch	curr_hosp	119
+2020-07-17	corona-data.ch	curr_hosp	113
+2020-07-18	corona-data.ch	curr_hosp	112
+2020-07-19	corona-data.ch	curr_hosp	116
+2020-07-20	corona-data.ch	curr_hosp	115
+2020-07-21	corona-data.ch	curr_hosp	116
+2020-07-22	corona-data.ch	curr_hosp	108
+2020-07-23	corona-data.ch	curr_hosp	111
+2020-07-24	corona-data.ch	curr_hosp	116
 2020-07-25	corona-data.ch	curr_hosp	114
-2020-07-26	corona-data.ch	curr_hosp	114
-2020-07-27	corona-data.ch	curr_hosp	120
-2020-07-28	corona-data.ch	curr_hosp	113
-2020-07-29	corona-data.ch	curr_hosp	124
-2020-07-30	corona-data.ch	curr_hosp	136
+2020-07-26	corona-data.ch	curr_hosp	113
+2020-07-27	corona-data.ch	curr_hosp	119
+2020-07-28	corona-data.ch	curr_hosp	111
+2020-07-29	corona-data.ch	curr_hosp	123
+2020-07-30	corona-data.ch	curr_hosp	135
 2020-07-31	corona-data.ch	curr_hosp	146
-2020-08-01	corona-data.ch	curr_hosp	150
+2020-08-01	corona-data.ch	curr_hosp	149
 2020-08-02	corona-data.ch	curr_hosp	154
-2020-08-03	corona-data.ch	curr_hosp	153
-2020-08-04	corona-data.ch	curr_hosp	152
-2020-08-05	corona-data.ch	curr_hosp	142
-2020-08-06	corona-data.ch	curr_hosp	133
-2020-08-07	corona-data.ch	curr_hosp	125
-2020-08-08	corona-data.ch	curr_hosp	126
-2020-08-09	corona-data.ch	curr_hosp	128
-2020-08-10	corona-data.ch	curr_hosp	129
-2020-08-11	corona-data.ch	curr_hosp	124
-2020-08-12	corona-data.ch	curr_hosp	130
-2020-08-13	corona-data.ch	curr_hosp	124
-2020-08-14	corona-data.ch	curr_hosp	121
-2020-08-15	corona-data.ch	curr_hosp	127
-2020-08-16	corona-data.ch	curr_hosp	128
-2020-08-17	corona-data.ch	curr_hosp	136
-2020-08-18	corona-data.ch	curr_hosp	137
-2020-08-19	corona-data.ch	curr_hosp	130
-2020-08-20	corona-data.ch	curr_hosp	126
-2020-08-21	corona-data.ch	curr_hosp	124
-2020-08-22	corona-data.ch	curr_hosp	122
+2020-08-03	corona-data.ch	curr_hosp	152
+2020-08-04	corona-data.ch	curr_hosp	147
+2020-08-05	corona-data.ch	curr_hosp	138
+2020-08-06	corona-data.ch	curr_hosp	132
+2020-08-07	corona-data.ch	curr_hosp	124
+2020-08-08	corona-data.ch	curr_hosp	122
+2020-08-09	corona-data.ch	curr_hosp	125
+2020-08-10	corona-data.ch	curr_hosp	128
+2020-08-11	corona-data.ch	curr_hosp	121
+2020-08-12	corona-data.ch	curr_hosp	123
+2020-08-13	corona-data.ch	curr_hosp	118
+2020-08-14	corona-data.ch	curr_hosp	113
+2020-08-15	corona-data.ch	curr_hosp	118
+2020-08-16	corona-data.ch	curr_hosp	122
+2020-08-17	corona-data.ch	curr_hosp	129
+2020-08-18	corona-data.ch	curr_hosp	134
+2020-08-19	corona-data.ch	curr_hosp	133
+2020-08-20	corona-data.ch	curr_hosp	128
+2020-08-21	corona-data.ch	curr_hosp	123
+2020-08-22	corona-data.ch	curr_hosp	121
 2020-08-23	corona-data.ch	curr_hosp	120
-2020-08-24	corona-data.ch	curr_hosp	124
-2020-08-25	corona-data.ch	curr_hosp	112
-2020-08-26	corona-data.ch	curr_hosp	116
-2020-08-27	corona-data.ch	curr_hosp	111
-2020-08-28	corona-data.ch	curr_hosp	110
-2020-08-29	corona-data.ch	curr_hosp	113
-2020-08-30	corona-data.ch	curr_hosp	117
-2020-08-31	corona-data.ch	curr_hosp	110
-2020-09-01	corona-data.ch	curr_hosp	111
-2020-09-02	corona-data.ch	curr_hosp	113
-2020-09-03	corona-data.ch	curr_hosp	122
-2020-09-04	corona-data.ch	curr_hosp	122
-2020-09-05	corona-data.ch	curr_hosp	126
-2020-09-06	corona-data.ch	curr_hosp	127
-2020-09-07	corona-data.ch	curr_hosp	128
-2020-09-08	corona-data.ch	curr_hosp	127
-2020-09-09	corona-data.ch	curr_hosp	129
-2020-09-10	corona-data.ch	curr_hosp	134
-2020-09-11	corona-data.ch	curr_hosp	139
-2020-09-12	corona-data.ch	curr_hosp	148
+2020-08-24	corona-data.ch	curr_hosp	123
+2020-08-25	corona-data.ch	curr_hosp	113
+2020-08-26	corona-data.ch	curr_hosp	113
+2020-08-27	corona-data.ch	curr_hosp	109
+2020-08-28	corona-data.ch	curr_hosp	108
+2020-08-29	corona-data.ch	curr_hosp	109
+2020-08-30	corona-data.ch	curr_hosp	111
+2020-08-31	corona-data.ch	curr_hosp	111
+2020-09-01	corona-data.ch	curr_hosp	112
+2020-09-02	corona-data.ch	curr_hosp	110
+2020-09-03	corona-data.ch	curr_hosp	113
+2020-09-04	corona-data.ch	curr_hosp	118
+2020-09-05	corona-data.ch	curr_hosp	124
+2020-09-06	corona-data.ch	curr_hosp	124
+2020-09-07	corona-data.ch	curr_hosp	129
+2020-09-08	corona-data.ch	curr_hosp	122
+2020-09-09	corona-data.ch	curr_hosp	125
+2020-09-10	corona-data.ch	curr_hosp	127
+2020-09-11	corona-data.ch	curr_hosp	134
+2020-09-12	corona-data.ch	curr_hosp	146
 2020-09-13	corona-data.ch	curr_hosp	154
-2020-09-14	corona-data.ch	curr_hosp	165
-2020-09-15	corona-data.ch	curr_hosp	173
-2020-09-16	corona-data.ch	curr_hosp	174
-2020-09-17	corona-data.ch	curr_hosp	176
-2020-09-18	corona-data.ch	curr_hosp	166
-2020-09-19	corona-data.ch	curr_hosp	159
-2020-09-20	corona-data.ch	curr_hosp	168
-2020-09-21	corona-data.ch	curr_hosp	173
-2020-09-22	corona-data.ch	curr_hosp	174
+2020-09-14	corona-data.ch	curr_hosp	166
+2020-09-15	corona-data.ch	curr_hosp	169
+2020-09-16	corona-data.ch	curr_hosp	172
+2020-09-17	corona-data.ch	curr_hosp	175
+2020-09-18	corona-data.ch	curr_hosp	162
+2020-09-19	corona-data.ch	curr_hosp	154
+2020-09-20	corona-data.ch	curr_hosp	165
+2020-09-21	corona-data.ch	curr_hosp	169
+2020-09-22	corona-data.ch	curr_hosp	172
 2020-09-23	corona-data.ch	curr_hosp	170
-2020-09-24	corona-data.ch	curr_hosp	168
-2020-09-25	corona-data.ch	curr_hosp	178
-2020-09-26	corona-data.ch	curr_hosp	183
-2020-09-27	corona-data.ch	curr_hosp	181
-2020-09-28	corona-data.ch	curr_hosp	200
-2020-09-29	corona-data.ch	curr_hosp	194
-2020-09-30	corona-data.ch	curr_hosp	187
+2020-09-24	corona-data.ch	curr_hosp	170
+2020-09-25	corona-data.ch	curr_hosp	179
+2020-09-26	corona-data.ch	curr_hosp	185
+2020-09-27	corona-data.ch	curr_hosp	185
+2020-09-28	corona-data.ch	curr_hosp	205
+2020-09-29	corona-data.ch	curr_hosp	198
+2020-09-30	corona-data.ch	curr_hosp	190
+2020-10-01	corona-data.ch	curr_hosp	200
+2020-10-02	corona-data.ch	curr_hosp	201
+2020-10-03	corona-data.ch	curr_hosp	202
+2020-10-04	corona-data.ch	curr_hosp	208
+2020-10-05	corona-data.ch	curr_hosp	218
+2020-10-06	corona-data.ch	curr_hosp	225
+2020-10-07	corona-data.ch	curr_hosp	241
+2020-10-08	corona-data.ch	curr_hosp	252
+2020-10-09	corona-data.ch	curr_hosp	298
+2020-10-10	corona-data.ch	curr_hosp	316
+2020-10-11	corona-data.ch	curr_hosp	335
+2020-10-12	corona-data.ch	curr_hosp	384
+2020-10-13	corona-data.ch	curr_hosp	416
+2020-10-14	corona-data.ch	curr_hosp	484
+2020-10-15	corona-data.ch	curr_hosp	539
+2020-10-16	corona-data.ch	curr_hosp	614
+2020-10-17	corona-data.ch	curr_hosp	663
+2020-10-18	corona-data.ch	curr_hosp	727
+2020-10-19	corona-data.ch	curr_hosp	854
+2020-10-20	corona-data.ch	curr_hosp	920
+2020-10-21	corona-data.ch	curr_hosp	920
 2020-02-25	corona-data.ch	deaths	0
 2020-02-26	corona-data.ch	deaths	0
 2020-02-27	corona-data.ch	deaths	0
@@ -1120,65 +1222,65 @@ day_reported	data_source	variable	value
 2020-03-16	corona-data.ch	deaths	12
 2020-03-17	corona-data.ch	deaths	7
 2020-03-18	corona-data.ch	deaths	9
-2020-03-19	corona-data.ch	deaths	10
-2020-03-20	corona-data.ch	deaths	23
+2020-03-19	corona-data.ch	deaths	11
+2020-03-20	corona-data.ch	deaths	22
 2020-03-21	corona-data.ch	deaths	20
 2020-03-22	corona-data.ch	deaths	15
-2020-03-23	corona-data.ch	deaths	29
+2020-03-23	corona-data.ch	deaths	30
 2020-03-24	corona-data.ch	deaths	21
-2020-03-25	corona-data.ch	deaths	35
-2020-03-26	corona-data.ch	deaths	45
-2020-03-27	corona-data.ch	deaths	37
-2020-03-28	corona-data.ch	deaths	51
-2020-03-29	corona-data.ch	deaths	48
-2020-03-30	corona-data.ch	deaths	62
-2020-03-31	corona-data.ch	deaths	67
+2020-03-25	corona-data.ch	deaths	34
+2020-03-26	corona-data.ch	deaths	46
+2020-03-27	corona-data.ch	deaths	38
+2020-03-28	corona-data.ch	deaths	54
+2020-03-29	corona-data.ch	deaths	49
+2020-03-30	corona-data.ch	deaths	59
+2020-03-31	corona-data.ch	deaths	64
 2020-04-01	corona-data.ch	deaths	62
-2020-04-02	corona-data.ch	deaths	64
-2020-04-03	corona-data.ch	deaths	61
-2020-04-04	corona-data.ch	deaths	67
-2020-04-05	corona-data.ch	deaths	52
-2020-04-06	corona-data.ch	deaths	60
-2020-04-07	corona-data.ch	deaths	61
-2020-04-08	corona-data.ch	deaths	67
+2020-04-02	corona-data.ch	deaths	66
+2020-04-03	corona-data.ch	deaths	62
+2020-04-04	corona-data.ch	deaths	70
+2020-04-05	corona-data.ch	deaths	53
+2020-04-06	corona-data.ch	deaths	59
+2020-04-07	corona-data.ch	deaths	58
+2020-04-08	corona-data.ch	deaths	69
 2020-04-09	corona-data.ch	deaths	52
-2020-04-10	corona-data.ch	deaths	51
-2020-04-11	corona-data.ch	deaths	39
+2020-04-10	corona-data.ch	deaths	52
+2020-04-11	corona-data.ch	deaths	42
 2020-04-12	corona-data.ch	deaths	58
-2020-04-13	corona-data.ch	deaths	34
-2020-04-14	corona-data.ch	deaths	39
-2020-04-15	corona-data.ch	deaths	55
+2020-04-13	corona-data.ch	deaths	33
+2020-04-14	corona-data.ch	deaths	41
+2020-04-15	corona-data.ch	deaths	52
 2020-04-16	corona-data.ch	deaths	48
-2020-04-17	corona-data.ch	deaths	49
-2020-04-18	corona-data.ch	deaths	41
-2020-04-19	corona-data.ch	deaths	26
-2020-04-20	corona-data.ch	deaths	43
-2020-04-21	corona-data.ch	deaths	43
-2020-04-22	corona-data.ch	deaths	30
-2020-04-23	corona-data.ch	deaths	31
+2020-04-17	corona-data.ch	deaths	48
+2020-04-18	corona-data.ch	deaths	40
+2020-04-19	corona-data.ch	deaths	25
+2020-04-20	corona-data.ch	deaths	42
+2020-04-21	corona-data.ch	deaths	45
+2020-04-22	corona-data.ch	deaths	29
+2020-04-23	corona-data.ch	deaths	32
 2020-04-24	corona-data.ch	deaths	30
-2020-04-25	corona-data.ch	deaths	25
+2020-04-25	corona-data.ch	deaths	26
 2020-04-26	corona-data.ch	deaths	18
-2020-04-27	corona-data.ch	deaths	22
-2020-04-28	corona-data.ch	deaths	28
-2020-04-29	corona-data.ch	deaths	8
+2020-04-27	corona-data.ch	deaths	20
+2020-04-28	corona-data.ch	deaths	29
+2020-04-29	corona-data.ch	deaths	10
 2020-04-30	corona-data.ch	deaths	18
-2020-05-01	corona-data.ch	deaths	25
+2020-05-01	corona-data.ch	deaths	16
 2020-05-02	corona-data.ch	deaths	15
 2020-05-03	corona-data.ch	deaths	8
-2020-05-04	corona-data.ch	deaths	5
+2020-05-04	corona-data.ch	deaths	6
 2020-05-05	corona-data.ch	deaths	13
 2020-05-06	corona-data.ch	deaths	6
 2020-05-07	corona-data.ch	deaths	10
-2020-05-08	corona-data.ch	deaths	9
+2020-05-08	corona-data.ch	deaths	10
 2020-05-09	corona-data.ch	deaths	10
-2020-05-10	corona-data.ch	deaths	9
-2020-05-11	corona-data.ch	deaths	5
+2020-05-10	corona-data.ch	deaths	10
+2020-05-11	corona-data.ch	deaths	3
 2020-05-12	corona-data.ch	deaths	2
 2020-05-13	corona-data.ch	deaths	4
 2020-05-14	corona-data.ch	deaths	3
 2020-05-15	corona-data.ch	deaths	6
-2020-05-16	corona-data.ch	deaths	0
+2020-05-16	corona-data.ch	deaths	1
 2020-05-17	corona-data.ch	deaths	5
 2020-05-18	corona-data.ch	deaths	5
 2020-05-19	corona-data.ch	deaths	2
@@ -1188,7 +1290,7 @@ day_reported	data_source	variable	value
 2020-05-23	corona-data.ch	deaths	1
 2020-05-24	corona-data.ch	deaths	1
 2020-05-25	corona-data.ch	deaths	3
-2020-05-26	corona-data.ch	deaths	0
+2020-05-26	corona-data.ch	deaths	1
 2020-05-27	corona-data.ch	deaths	2
 2020-05-28	corona-data.ch	deaths	0
 2020-05-29	corona-data.ch	deaths	0
@@ -1244,7 +1346,7 @@ day_reported	data_source	variable	value
 2020-07-18	corona-data.ch	deaths	0
 2020-07-19	corona-data.ch	deaths	0
 2020-07-20	corona-data.ch	deaths	3
-2020-07-21	corona-data.ch	deaths	2
+2020-07-21	corona-data.ch	deaths	1
 2020-07-22	corona-data.ch	deaths	0
 2020-07-23	corona-data.ch	deaths	2
 2020-07-24	corona-data.ch	deaths	1
@@ -1270,14 +1372,14 @@ day_reported	data_source	variable	value
 2020-08-13	corona-data.ch	deaths	1
 2020-08-14	corona-data.ch	deaths	1
 2020-08-15	corona-data.ch	deaths	2
-2020-08-16	corona-data.ch	deaths	2
-2020-08-17	corona-data.ch	deaths	2
+2020-08-16	corona-data.ch	deaths	1
+2020-08-17	corona-data.ch	deaths	3
 2020-08-18	corona-data.ch	deaths	1
 2020-08-19	corona-data.ch	deaths	0
 2020-08-20	corona-data.ch	deaths	0
 2020-08-21	corona-data.ch	deaths	1
-2020-08-22	corona-data.ch	deaths	2
-2020-08-23	corona-data.ch	deaths	1
+2020-08-22	corona-data.ch	deaths	1
+2020-08-23	corona-data.ch	deaths	2
 2020-08-24	corona-data.ch	deaths	2
 2020-08-25	corona-data.ch	deaths	0
 2020-08-26	corona-data.ch	deaths	1
@@ -1289,30 +1391,51 @@ day_reported	data_source	variable	value
 2020-09-01	corona-data.ch	deaths	0
 2020-09-02	corona-data.ch	deaths	3
 2020-09-03	corona-data.ch	deaths	0
-2020-09-04	corona-data.ch	deaths	1
+2020-09-04	corona-data.ch	deaths	2
 2020-09-05	corona-data.ch	deaths	1
 2020-09-06	corona-data.ch	deaths	3
-2020-09-07	corona-data.ch	deaths	1
+2020-09-07	corona-data.ch	deaths	0
 2020-09-08	corona-data.ch	deaths	2
-2020-09-09	corona-data.ch	deaths	4
+2020-09-09	corona-data.ch	deaths	3
 2020-09-10	corona-data.ch	deaths	2
-2020-09-11	corona-data.ch	deaths	3
+2020-09-11	corona-data.ch	deaths	4
 2020-09-12	corona-data.ch	deaths	3
 2020-09-13	corona-data.ch	deaths	0
 2020-09-14	corona-data.ch	deaths	3
-2020-09-15	corona-data.ch	deaths	2
+2020-09-15	corona-data.ch	deaths	1
 2020-09-16	corona-data.ch	deaths	7
-2020-09-17	corona-data.ch	deaths	4
+2020-09-17	corona-data.ch	deaths	5
 2020-09-18	corona-data.ch	deaths	3
 2020-09-19	corona-data.ch	deaths	6
 2020-09-20	corona-data.ch	deaths	0
-2020-09-21	corona-data.ch	deaths	0
+2020-09-21	corona-data.ch	deaths	1
 2020-09-22	corona-data.ch	deaths	1
-2020-09-23	corona-data.ch	deaths	2
+2020-09-23	corona-data.ch	deaths	3
 2020-09-24	corona-data.ch	deaths	5
 2020-09-25	corona-data.ch	deaths	1
 2020-09-26	corona-data.ch	deaths	0
 2020-09-27	corona-data.ch	deaths	1
-2020-09-28	corona-data.ch	deaths	1
+2020-09-28	corona-data.ch	deaths	3
 2020-09-29	corona-data.ch	deaths	2
 2020-09-30	corona-data.ch	deaths	1
+2020-10-01	corona-data.ch	deaths	4
+2020-10-02	corona-data.ch	deaths	2
+2020-10-03	corona-data.ch	deaths	0
+2020-10-04	corona-data.ch	deaths	1
+2020-10-05	corona-data.ch	deaths	1
+2020-10-06	corona-data.ch	deaths	1
+2020-10-07	corona-data.ch	deaths	1
+2020-10-08	corona-data.ch	deaths	4
+2020-10-09	corona-data.ch	deaths	2
+2020-10-10	corona-data.ch	deaths	2
+2020-10-11	corona-data.ch	deaths	3
+2020-10-12	corona-data.ch	deaths	5
+2020-10-13	corona-data.ch	deaths	8
+2020-10-14	corona-data.ch	deaths	4
+2020-10-15	corona-data.ch	deaths	3
+2020-10-16	corona-data.ch	deaths	7
+2020-10-17	corona-data.ch	deaths	5
+2020-10-18	corona-data.ch	deaths	5
+2020-10-19	corona-data.ch	deaths	6
+2020-10-20	corona-data.ch	deaths	5
+2020-10-21	corona-data.ch	deaths	0
