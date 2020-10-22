@@ -58,8 +58,8 @@ services:
       environment:
 #
 # ------ CHANGE the next two lines -----------------------------------------
-        - VIRTUAL_HOST=covid-19-forecast.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
-        - LETSENCRYPT_HOST=covid-19-forecast.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
+        - VIRTUAL_HOST=covid-19-forecast-backend.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
+        - LETSENCRYPT_HOST=covid-19-forecast-backend.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
 # -------------------------------------------------------------------------
         - LETSENCRYPT_EMAIL=scicore-admin@unibas.ch
       volumes:
