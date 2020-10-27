@@ -1,0 +1,35 @@
+version: '3'
+services:
+
+    shiny:
+#--------------------------------------
+# The name of your app as defined
+# by the folder name inside shiny-apps
+#
+      image: covid-19-forecast:0.1
+#--------------------------------------
+      build:
+        context: .
+        dockerfile: Dockerfile
+      ports:
+        - "3838:3838"
+      user: root
+      volumes:
+        - shiny_logs:/var/log/shiny-server
+        # Comment the line below out for initial testing. With it commented out,
+        # going to localhost:80 in one's web browser will show a "Welcome to
+        # Shiny Server!" diagnostics page.
+        - ./shiny-apps/covid-19-forecast:/srv/shiny-server
+      restart: unless-stopped
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '10'
+
+
+volumes:
+  shiny_logs:
+
+
+
