@@ -8,11 +8,6 @@ source("scripts/plotting_scripts.R")
 source("scripts/define_constants.R")
 source("scripts/ts_scripts.R")
 
-# Import the data scraped from BAG and corona-data.ch
-pulled_data = read.table(file = "www/pulled_data.txt", sep = "\t", 
-                          header = TRUE, stringsAsFactors = FALSE)
-pulled_data$day_reported = ymd(pulled_data$day_reported)
-m_date = as.Date(file.info("www/pulled_data.txt")$mtime) - 4
 
 # Define server logic
 shinyServer(function(input, output, session) {
@@ -20,6 +15,12 @@ shinyServer(function(input, output, session) {
     # suppress warnings  
     storeWarn<- getOption("warn")
     options(warn = -1)
+
+    # Import the data scraped from BAG and corona-data.ch
+    pulled_data = read.table(file = "www/pulled_data.txt", sep = "\t", 
+                              header = TRUE, stringsAsFactors = FALSE)
+    pulled_data$day_reported = ymd(pulled_data$day_reported)
+    m_date = as.Date(file.info("www/pulled_data.txt")$mtime) - 4
 
     output$FOPH_text = renderText({"Swiss Federal Office of Public Health (FOPH)"})
     output$CORONA_text = renderText({"corona-data.ch"})

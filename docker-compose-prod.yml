@@ -1,47 +1,6 @@
 version: '3'
 services:
 
-    nginx-proxy:
-      image: jwilder/nginx-proxy:alpine
-      container_name: nginx-proxy
-      labels:
-        # this label is needed so that the letsencrypt container knows which nginx proxy container to use
-        # https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion/wiki/Getting-containers-IDs
-        com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy: "true"
-      ports:
-        - "80:80"
-        - "443:443"
-      volumes:
-        - conf:/etc/nginx/conf.d
-        - vhost:/etc/nginx/vhost.d
-        - html:/usr/share/nginx/html
-        - dhparam:/etc/nginx/dhparam
-        - certs:/etc/nginx/certs:ro
-        - /var/run/docker.sock:/tmp/docker.sock:ro
-      restart: unless-stopped
-      logging:
-        driver: json-file
-        options:
-          max-size: '10m'
-          max-file: '10'
-
-    letsencrypt:
-      image: jrcs/letsencrypt-nginx-proxy-companion:latest
-      container_name: nginx-proxy-le
-      volumes:
-        - conf:/etc/nginx/conf.d
-        - vhost:/etc/nginx/vhost.d
-        - html:/usr/share/nginx/html
-        - dhparam:/etc/nginx/dhparam
-        - certs:/etc/nginx/certs:rw
-        - /var/run/docker.sock:/var/run/docker.sock:ro
-      restart: unless-stopped
-      logging:
-        driver: json-file
-        options:
-          max-size: '10m'
-          max-file: '10'
-
     shiny:
 #--------------------------------------
 # The name of your app as defined
@@ -52,16 +11,9 @@ services:
       build:
         context: .
         dockerfile: Dockerfile
-      expose:
-        - 3838
+      ports:
+        - "3838:3838"
       user: root
-      environment:
-#
-# ------ CHANGE the next two lines -----------------------------------------
-        - VIRTUAL_HOST=covid-19-forecast.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
-        - LETSENCRYPT_HOST=ci-debug.scicore.unibas.ch # sosci-devel.scicore.unibas.ch
-# -------------------------------------------------------------------------
-        - LETSENCRYPT_EMAIL=scicore-admin@unibas.ch
       volumes:
         - shiny_logs:/var/log/shiny-server
         # Comment the line below out for initial testing. With it commented out,
@@ -77,11 +29,6 @@ services:
 
 
 volumes:
-  conf:
-  vhost:
-  html:
-  dhparam:
-  certs:
   shiny_logs:
 
 
