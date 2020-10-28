@@ -19,7 +19,7 @@ services:
         # this is shared (in the host) with the cron container
         # we map it to data as if we use www we need to provide the other files here too 
         # if we use a folder (more flexible than using a file only)
-        - ./data:/srv/shiny-server/data
+        - ./data:/tmp/data
         # Comment the line below out for initial testing. With it commented out,
         # going to localhost:80 in one's web browser will show a "Welcome to
         # Shiny Server!" diagnostics page.
@@ -40,7 +40,7 @@ services:
       volumes:
         - sync_logs:/var/log/
         # this is shared (in the host) with the shiny container
-        - ./data:/root/data
+        - ./data:/tmp/data
         - ./shiny-apps/covid-19-forecast/external_scripts/:/root/scripts/
       restart: unless-stopped
       logging:

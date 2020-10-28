@@ -125,6 +125,6 @@ data_tab_BAG = get_BAG_online_table_long_format()
 data_tab_CORONA = get_CORONA_table_long_format()
 data_tab = rbind(data_tab_BAG, data_tab_CORONA)
 
-write.table(data_tab, "~/data/pulled_data.txt", sep="\t", 
+write.table(data_tab, "/tmp/data/pulled_data.txt", sep="\t", 
             col.names = TRUE, row.names = FALSE, quote = FALSE)
 
