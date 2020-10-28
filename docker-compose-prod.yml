@@ -6,16 +6,20 @@ services:
 # The name of your app as defined
 # by the folder name inside shiny-apps
 # 
-      image: ci-debug:0.1
+      image: shiny:0.1
 #--------------------------------------
       build:
-        context: .
+        context: ./dockerfiles/shiny
         dockerfile: Dockerfile
       ports:
         - "3838:3838"
       user: root
       volumes:
         - shiny_logs:/var/log/shiny-server
+        # this is shared (in the host) with the cron container
+        # we map it to data as if we use www we need to provide the other files here too 
+        # if we use a folder (more flexible than using a file only)
+        - ./data:/srv/shiny-server/data
         # Comment the line below out for initial testing. With it commented out,
         # going to localhost:80 in one's web browser will show a "Welcome to
         # Shiny Server!" diagnostics page.
@@ -26,9 +30,27 @@ services:
         options:
           max-size: '10m'
           max-file: '10'
-
+    cron:
+      image: cron:0.1
+#--------------------------------------
+      build:
+        context: ./dockerfiles/cron
+        dockerfile: Dockerfile
+      user: root
+      volumes:
+        - sync_logs:/var/log/
+        # this is shared (in the host) with the shiny container
+        - ./data:/root/data
+        - ./shiny-apps/covid-19-forecast/external_scripts/:/root/scripts/
+      restart: unless-stopped
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '10'
 
 volumes:
   shiny_logs:
+  sync_logs:
 
 

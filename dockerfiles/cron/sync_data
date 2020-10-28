@@ -1,0 +1,1 @@
+* * * * * /usr/local/bin/Rscript ~/scripts/extract_data.R > /var/log/cron.log

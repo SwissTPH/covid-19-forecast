@@ -12,3 +12,4 @@ deploy_app:
     refs:
       - prod
       - master
+      - cron
