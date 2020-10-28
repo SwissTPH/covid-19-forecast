@@ -14,4 +14,6 @@ RUN touch /var/log/cron.log && mkdir /root/scripts
 
 ADD sync_data /etc/cron.d/sync_data
 
+RUN chmod 0644 /etc/cron.d/sync_data
+
 CMD cron && tail -f /var/log/cron.log
