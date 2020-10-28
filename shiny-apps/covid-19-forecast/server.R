@@ -17,7 +17,7 @@ shinyServer(function(input, output, session) {
     options(warn = -1)
 
     # Import the data scraped from BAG and corona-data.ch
-    pulled_data = read.table(file = "/tmp/data/pulled_data.txt", sep = "\t", 
+    pulled_data = read.table(file = "data/pulled_data.txt", sep = "\t", 
                               header = TRUE, stringsAsFactors = FALSE)
     pulled_data$day_reported = ymd(pulled_data$day_reported)
     m_date = as.Date(file.info("data/pulled_data.txt")$mtime) - 4
