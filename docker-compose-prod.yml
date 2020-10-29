@@ -48,7 +48,9 @@ services:
         options:
           max-size: '10m'
           max-file: '10'
-
+# volumes are special mounts on the containers that are managed by docker, hence the missing path
+# they can be inspected with docker volume list, docker volume inspect <volid> (to get the path) and
+# then check the contents at the path defined by Mountpoint
 volumes:
   shiny_logs:
   sync_logs:

@@ -1,2 +1,4 @@
+# Run every hour at hh:05, chmod is needed as cron is executed by root but the CI is executed as non privileged user so it
+# fails to clean the data folder otherwise
 5 * * * * root /usr/local/bin/Rscript ~/scripts/extract_data.R >> /var/log/cron.log 2>&1  && /bin/chmod -R o=rwx /root/data
 # empty line required
