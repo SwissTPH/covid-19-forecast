@@ -1,1 +1,2 @@
-* * * * * /usr/local/bin/Rscript ~/scripts/extract_data.R  && /bin/chmod -R o=rwx /root/data > /var/log/cron.log
+* * * * * /usr/local/bin/Rscript ~/scripts/extract_data.R  && /bin/chmod -R o=rwx /root/data >> /var/log/cron.log 2>&1
+
