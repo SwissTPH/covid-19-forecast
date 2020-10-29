@@ -6,8 +6,9 @@ stages:
 deploy_app:
   stage: deploy
   script:
-    - docker-compose -f docker-compose-prod.yml restart
+    - docker-compose -f docker-compose-prod.yml stop
     - docker-compose -f docker-compose-prod.yml up -d
   only:
     refs:
       - prod
+      - master

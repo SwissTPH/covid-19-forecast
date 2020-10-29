@@ -5,8 +5,8 @@ services:
 #--------------------------------------
 # The name of your app as defined
 # by the folder name inside shiny-apps
-# 
-      image: ci-debug:0.1
+#
+      image: covid-19-forecast:0.1
 #--------------------------------------
       build:
         context: .
@@ -30,5 +30,6 @@ services:
 
 volumes:
   shiny_logs:
+
 
 
