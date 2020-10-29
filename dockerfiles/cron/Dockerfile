@@ -10,10 +10,10 @@ RUN apt-get update && apt-get install -y \
 # install some extra R libraries required by our shiny app
 RUN install2.r readxl lubridate reshape2
 
-RUN touch /var/log/cron.log && mkdir /root/scripts && cmmod o+rwx /root/scripts
+RUN touch /var/log/cron.log && mkdir /root/scripts && chmod o+rwx /root/scripts
 
 ADD sync_data /etc/cron.d/sync_data
 
-RUN chmod 0644 /etc/cron.d/sync_data
+RUN chmod 0755 /etc/cron.d/sync_data
 
 CMD cron && tail -f /var/log/cron.log
