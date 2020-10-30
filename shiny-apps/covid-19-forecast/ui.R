@@ -3,7 +3,7 @@ library(plotly)
 library(shinyhelper)
 
 # Retrieve the date of the last file change (date of the last data point)
-current_date = file.info("www/pulled_data.txt")$mtime 
+current_date = file.info("data/pulled_data.txt")$mtime 
 # Remove the 4 days where the data is incomplete
 max_date = as.Date(current_date) - 4
 
