@@ -41,7 +41,7 @@ services:
         - sync_logs:/var/log/
         # this is shared (in the host) with the shiny container
         - ./data:/root/data
-        - ./shiny-apps/covid-19-forecast/external_scripts/:/root/scripts/
+        - ./shiny-apps/covid-19-forecast/scripts/:/root/scripts/
       restart: unless-stopped
       logging:
         driver: json-file
